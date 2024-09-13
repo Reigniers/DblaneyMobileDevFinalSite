@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tomes of Terror Weekly</title>
+<link  href="http://sotd.us/danielblaney/MobileAppDev/Website/fontStylesheet.css" rel="stylesheet" >
+<link rel="stylesheet" href="themes/Pastas.min.css">
+<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css">
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<style>
+    /* General Styles */
+    body {
+        font-family: 'kcoraregular', sans-serif; /* Use the Kcora font for all text */
+        color: #d9ae6d; /* Pasta color for the text */
+    }
+
+    /* Header Style */
+    .header, h1, h3, .page-title, .header-title, .ui-footer, .ui-btn, .ui-title {
+        font-family: 'slither_halowsregular', sans-serif; /* Use the Slither Halows font */
+    }
+
+    /* Specific Element Styles */
+    h1 {
+        font-size: 44px; /* Standard size for all h1 elements */
+        margin-bottom: 20px;
+    }
+
+    h3, .page-title {
+        font-size: 36px; /* Standard size for h3 and page titles */
+        margin-bottom: 20px;
+    }
+
+    /* Div and Paragraph Styles */
+    div, p, .ui-panel-wrapper, .ui-content, .myPanel {
+        font-family: 'kcoraregular', sans-serif; /* Use the Kcora font */
+        font-size: 20px; /* Standard size for all content */
+        padding: 15px;
+        text-align: center; /* Center align the content */
+    }
+
+    /* Header Link Hover Style */
+    .header-link a:hover {
+        text-decoration: underline; /* Add underline on hover */
+    }
+
+    /* Style for the bar icon link */
+    .bar-icon-link {
+        font-size: 18px; /* Adjust the font size for the text */
+        padding: 10px 20px; /* Adjust the padding to change the size of the bar */
+        background-color: #444; /* Optional: Add a background color */
+        color: ivory; /* Ivory color for the text */
+        border-radius: 5px; /* Optional: Add rounded corners */
+        text-decoration: none; /* Remove underline */
+        width: 100px;
+    }
+
+    .bar-icon-link:hover {
+        background-color: #666; /* Optional: Change background on hover */
+        text-decoration: underline; /* Add underline text on hover */
+    }
+
+    .bar-icon-link .ui-icon {
+        transform: scale(1.5); /* Scale the icon size */
+        margin-right: 5px; /* Space between the icon and text */
+    }
+
+    /* Footer Style */
+    .ui-footer {
+        font-size: 20px; /* Font size for the footer */
+        padding: 15px;
+        text-align: center; /* Center align the footer */
+    }
+
+</style>
+<script>
+    $(document).ready(function(){
+    // Open the panel when the page loads
+    $("#myPanel").panel("open");
+
+    // Close the panel when any list item is clicked
+    $("#myPanel ul li a").click(function(){
+        $("#myPanel").panel("close");
+    });
+
+    // Toggle panel with the button
+    $("#panelToggleBtn").click(function(){
+        $("#myPanel").panel("toggle");
+    });
+    });
+
+</script>
+
+</head>
+
+<body>
+
+    <!-- Sidebar Panel -->
+    <div id="myPanel" data-role="panel" data-display="push" data-theme="a">
+        <ul data-role="listview" data-theme="a" data-filter="true">
+            <li><a href="#section1">I used to bite my nails</a></li>
+            <li><a href="#section2">I worked as a professional foreigner in China, and the job is even stranger than it sounds</a></li>
+            <li><a href="#section3">Stepminding</a></li>
+            <li><a href="#section4">Ol'Spinesnapper</a></li>
+            <li><a href="#section5">I'm A Marine Biologist Working For The Canadian Coast Guard...</a></li>
+            <li><a href="#section6">Someone at the airport asked me to watch their suitcase...</a></li>
+            <li><a href="#section7">My daughter keeps asking about the man in the walls.</a></li>
+            <li><a href="#section8">I Was Paid to Teach at a School That Shouldn't Exist</a></li>
+            <li><a href="#section9">The Baby Monitor</a></li>
+            <li><a href="#section10">I found some paperwork under a file cabinet...</a></li>
+            <li><a href="#form">Weekly Tome Mailing List</a></li>
+        </ul>
+    </div><!-- End of Sidebar Panel -->
+
+    <!--Main Page-->
+    
+    <!-- Section 1 -->
+    <div id="section1" data-role="page" data-theme="a">
+        <div data-role="header" data-theme="a" data-position="fixed">
+            <a href="#myPanel" id="panelToggleBtn" data-role="button" data-icon="bars">Weekly Tomes</a>
+            <h1><a href="http://sotd.us/danielblaney/MobileAppDev/Website/homePage.html">Creepy Pasta Bakes</a></h1>
+            <h2><a href="http://sotd.us/danielblaney/MobileAppDev/Website/eldritchArchives.html">Eldritch Archives</a></h2>
+        </div>
+        <div data-role="content">
+            <h1>I used to bite my nails</h1>
+            <h3><a href="https://www.reddit.com/r/nosleep/comments/1f03d6h/i_used_to_bite_my_nails/">Original Author's Link</a></h3>
+            <p>I would put the story here but to be honestly it seems you don't really care.</p>
+        </div>
+        <div data-role="footer" data-theme="a">
+            <h4>Your App &copy; 2024</h4>
+        </div>
+    </div>
+
+    <!-- Section 2 -->
+    <div id="section2" data-role="page" data-theme="a">
+        <div data-role="header" data-theme="a" data-position="fixed">
+            <a href="#myPanel" id="panelToggleBtn" data-role="button" data-icon="bars">Weekly Tomes</a>
+            <h1><a href="http://sotd.us/danielblaney/MobileAppDev/Website/homePage.html">Creepy Pasta Bakes</a></h1>
+            <h2><a href="http://sotd.us/danielblaney/MobileAppDev/Website/eldritchArchives.html">Eldritch Archives</a></h2>
+        </div>
+        <div data-role="content">
+            <h1>I worked as a professional foreigner in China, and the job is even stranger than it sounds.</h1>
+            <h3><a href="https://www.reddit.com/r/nosleep/comments/1ezrj5w/i_worked_as_a_professional_foreigner_in_china_and/">Original Author's Link</a></h3>
+            <p>Testing</p>
+        </div>
+        <div data-role="footer" data-theme="a">
+            <h4>Your App &copy; 2024</h4>
+        </div>
+    </div>
+
+    <!-- Section 3 -->
+    <div id="section3" data-role="page" data-theme="a">
+        <div data-role="header" data-theme="a" data-position="fixed">
+            <a href="#myPanel" id="panelToggleBtn" data-role="button" data-icon="bars">Weekly Tomes</a>
+            <h1><a href="http://sotd.us/danielblaney/MobileAppDev/Website/homePage.html">Creepy Pasta Bakes</a></h1>
+            <h2><a href="http://sotd.us/danielblaney/MobileAppDev/Website/eldritchArchives.html">Eldritch Archives</a></h2>
+            </div>
+        <div data-role="content">
+            <h1>Stepminding</h1>
+            <h3><a href="https://www.reddit.com/r/nosleep/comments/1ezts8i/stepminding/">Original Author's Link</a></h3>
+            <p>Testing</p>
+        </div>
+        <div data-role="footer" data-theme="a">
+            <h4>Your App &copy; 2024</h4>
+        </div>
+    </div>
+
+    <!-- Section 4 -->
+    <div id="section4" data-role="page" data-theme="a">
+        <div data-role="header" data-theme="a" data-position="fixed">
+            <a href="#myPanel" id="panelToggleBtn" data-role="button" data-icon="bars">Weekly Tomes</a>
+            <h1><a href="http://sotd.us/danielblaney/MobileAppDev/Website/homePage.html">Creepy Pasta Bakes</a></h1>
+            <h2><a href="http://sotd.us/danielblaney/MobileAppDev/Website/eldritchArchives.html">Eldritch Archives</a></h2>
+            </div>
+        <div data-role="content">
+            <h1>Ol'Spinesnapper</h1>
+            <h3><a href="https://www.reddit.com/r/nosleep/comments/1f0baj8/ol_spinesnapper/">Original Author's Link</a></h3>
+            <p>Testing</p>
+        </div>
+        <div data-role="footer" data-theme="a">
+            <h4>Pasta Bakes &copy; 2024</h4>
+        </div>
+    </div>
+
+    <!-- Section 5 -->
+    <div id="section5" data-role="page" data-theme="a">
+        <div data-role="header" data-theme="a" data-position="fixed">
+            <a href="#myPanel" id="panelToggleBtn" data-role="button" data-icon="bars">Weekly Tomes</a>
+            <h1><a href="http://sotd.us/danielblaney/MobileAppDev/Website/homePage.html">Creepy Pasta Bakes</a></h1>
+            <h2><a href="http://sotd.us/danielblaney/MobileAppDev/Website/eldritchArchives.html">Eldritch Archives</a></h2>
+            </div>
+        <div data-role="content">
+            <h1>I'm A Marine Biologist Working For The Canadian Coast Guard Helping To Investigate A Series Of Shark Attacks In And Around Halifax Harbour, But I'm Starting To Think That It Isn't A Shark (Part 2)</h1>
+            <h3><a href="https://www.reddit.com/r/nosleep/comments/1f0cdm9/im_a_marine_biologist_working_for_the_canadian/">Original Author's Link</a></h3>
+            <p>Testing</p>
+        </div>
+        <div data-role="footer" data-theme="a">
+            <h4>Pasta Bakes &copy; 2024</h4>
+        </div>
+    </div>
+
+    <!-- Section 6 -->
+    <div id="section6" data-role="page" data-theme="a">
+        <div data-role="header" data-theme="a" data-position="fixed">
+            <a href="#myPanel" id="panelToggleBtn" data-role="button" data-icon="bars">Weekly Tomes</a>
+            <h1><a href="http://sotd.us/danielblaney/MobileAppDev/Website/homePage.html">Creepy Pasta Bakes</a></h1>
+            <h2><a href="http://sotd.us/danielblaney/MobileAppDev/Website/eldritchArchives.html">Eldritch Archives</a></h2>
+            </div>
+        <div data-role="content">
+            <h1>Someone at the airport asked me to watch their suitcase. I never should have agreed…</h1>
+            <h3><a href="https://www.reddit.com/r/nosleep/comments/1ezj5k9/someone_at_the_airport_asked_me_to_watch_their/">Original Author's Link</a></h3>
+            <p>Testing</p>
+        </div>
+        <div data-role="footer" data-theme="a">
+            <h4>Pasta Bakes &copy; 2024</h4>
+        </div>
+    </div>
+
+    <!-- Section 7 -->
+    <div id="section7" data-role="page" data-theme="a">
+        <div data-role="header" data-theme="a" data-position="fixed">
+            <a href="#myPanel" id="panelToggleBtn" data-role="button" data-icon="bars">Weekly Tomes</a>
+            <h1><a href="http://sotd.us/danielblaney/MobileAppDev/Website/homePage.html">Creepy Pasta Bakes</a></h1>
+            <h2><a href="http://sotd.us/danielblaney/MobileAppDev/Website/eldritchArchives.html">Eldritch Archives</a></h2>
+            </div>
+        <div data-role="content">
+            <h1>My daughter keeps asking about the man in the walls.</h1>
+            <h3><a href="https://www.reddit.com/r/nosleep/comments/1ezp15q/my_daughter_keeps_asking_about_the_man_in_the/">Original Author's Link</a></h3>
+            <p>Testing</p>
+        </div>
+        <div data-role="footer" data-theme="a">
+            <h4>Pasta Bakes &copy; 2024</h4>
+        </div>
+    </div>
+
+    <!-- Section 8 -->
+    <div id="section8" data-role="page" data-theme="a">
+        <div data-role="header" data-theme="a" data-position="fixed">
+            <a href="#myPanel" id="panelToggleBtn" data-role="button" data-icon="bars">Weekly Tomes</a>
+            <h1><a href="http://sotd.us/danielblaney/MobileAppDev/Website/homePage.html">Creepy Pasta Bakes</a></h1>
+            <h2><a href="http://sotd.us/danielblaney/MobileAppDev/Website/eldritchArchives.html">Eldritch Archives</a></h2>
+            </div>
+        <div data-role="content">
+            <h1>I Was Paid to Teach at a School That Shouldn't Exist</h1>
+            <h3><a href="https://www.reddit.com/r/nosleep/comments/1f01ixl/i_was_paid_to_teach_at_a_school_that_shouldnt/">Original Author's Link</a></h3>
+            <p>Testing</p>
+        </div>
+        <div data-role="footer" data-theme="a">
+            <h4>Pasta Bakes &copy; 2024</h4>
+        </div>
+    </div>
+
+    <!-- Section 9 -->
+    <div id="section9" data-role="page" data-theme="a">
+        <div data-role="header" data-theme="a" data-position="fixed">
+            <a href="#myPanel" id="panelToggleBtn" data-role="button" data-icon="bars">Weekly Tomes</a>
+            <h1><a href="http://sotd.us/danielblaney/MobileAppDev/Website/homePage.html">Creepy Pasta Bakes</a></h1>
+            <h2><a href="http://sotd.us/danielblaney/MobileAppDev/Website/eldritchArchives.html">Eldritch Archives</a></h2>
+            </div>
+        <div data-role="content">
+            <h1>The Baby Monitor</h1>
+            <h3><a href="https://www.reddit.com/r/nosleep/comments/1ezv1j4/the_baby_monitor/">Original Author's Link</a></h3>
+            <p>Testing</p>
+        </div>
+        <div data-role="footer" data-theme="a">
+            <h4>Pasta Bakes &copy; 2024</h4>
+        </div>
+    </div>
+
+    <!-- Section 10 -->
+    <div id="section10" data-role="page" data-theme="a">
+        <div data-role="header" data-theme="a" data-position="fixed">
+            <a href="#myPanel" id="panelToggleBtn" data-role="button" data-icon="bars">Weekly Tomes</a>
+            <h1><a href="http://sotd.us/danielblaney/MobileAppDev/Website/homePage.html">Creepy Pasta Bakes</a></h1>
+            <h2><a href="http://sotd.us/danielblaney/MobileAppDev/Website/eldritchArchives.html">Eldritch Archives</a></h2>
+            </div>
+        <div data-role="content">
+            <h1>I found some paperwork under a file cabinet at my Uncle’s house, and I hope it’s just fiction [Part 1]</h1>
+            <h3><a href="https://www.reddit.com/r/nosleep/comments/1f075qx/i_found_some_paperwork_under_a_file_cabinet_at_my/">Original Author's Link</a></h3>
+            <p>Testing</p>
+        </div>
+        <div data-role="footer" data-theme="a">
+            <h4>Pasta Bakes &copy; 2024</h4>
+        </div>
+    </div>
+
+  <!-- Email Signup Form -->
+  <div data-role="page" id="form" data-theme="a">
+    <div data-role="header" data-theme="a">
+        <h1><a href="http://sotd.us/danielblaney/MobileAppDev/Website/homePage.html">Creepy Pasta Bakes</a></h1>
+            <h2><a href="http://sotd.us/danielblaney/MobileAppDev/Website/eldritchArchives.html">Eldritch Archives</a></h2>
+            <h2><a href="http://sotd.us/danielblaney/MobileAppDev/Website/TomeOfTerrorWeekly.html">Tomes of Terror Weekly</a></h2>
+    </div>
+    <div data-role="content">
+        <h1>Email Signup</h1>
+    </div>
+    <div data-role="content">
+        <form action="emailSignupForm.php" method="post">
+            <label for="fname">First name:</label>
+            <input type="text" name="fname" id="fname" data-clear-btn="true" required>
+            
+            <label for="lname">Last name:</label>
+            <input type="text" name="lname" id="lname" data-clear-btn="true" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" data-clear-btn="true" required>
+            
+            <input type="reset" value="Reset Button">
+            <input type="submit" value="Submit Button">
+        </form>
+    </div>
+    <div data-role="footer" data-theme="a">
+        <h4>Pasta Bakes &copy; 2024</h4>
+    </div>
+</div>
+
+</body>
+
+</html>

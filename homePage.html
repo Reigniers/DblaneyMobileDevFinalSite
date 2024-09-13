@@ -1,0 +1,1355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Creepy Pasta Bakes - Homepage</title>
+<link  href="http://sotd.us/danielblaney/MobileAppDev/Website/fontStylesheet.css" rel="stylesheet" >
+<link rel="stylesheet" href="themes/Pastas.min.css" />
+<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    
+<style>
+    /* General Styles */
+    body {
+        font-family: 'kcoraregular', sans-serif; /* Use the Kcora font for all text */
+        color: #d9ae6d; /* Pasta color for the text */
+    }
+
+    /* Header Style */
+    .header, h1, h3, .page-title, .header-title, .ui-footer, .ui-btn, .ui-title {
+        font-family: 'slither_halowsregular', sans-serif; /* Use the Slither Halows font */
+    }
+
+    /* Specific Element Styles */
+    h1 {
+        font-size: 44px; /* Standard size for all h1 elements */
+        margin-bottom: 20px;
+    }
+
+    h3, .page-title {
+        font-size: 36px; /* Standard size for h3 and page titles */
+        margin-bottom: 20px;
+    }
+
+    /* Div and Paragraph Styles */
+    div, p, .ui-panel-wrapper, .ui-content, .myPanel {
+        font-family: 'kcoraregular', sans-serif; /* Use the Kcora font */
+        font-size: 20px; /* Standard size for all content */
+        padding: 15px;
+        text-align: center; /* Center align the content */
+    }
+
+    /* Header Link Hover Style */
+    .header-link a:hover {
+        text-decoration: underline; /* Add underline on hover */
+    }
+
+    /* Style for the bar icon link */
+    .bar-icon-link {
+        font-size: 18px; /* Adjust the font size for the text */
+        padding: 10px 20px; /* Adjust the padding to change the size of the bar */
+        background-color: #444; /* Optional: Add a background color */
+        color: ivory; /* Ivory color for the text */
+        border-radius: 5px; /* Optional: Add rounded corners */
+        text-decoration: none; /* Remove underline */
+        width: 100px;
+    }
+
+    .bar-icon-link:hover {
+        background-color: #666; /* Optional: Change background on hover */
+        text-decoration: underline; /* Add underline text on hover */
+    }
+
+    .bar-icon-link .ui-icon {
+        transform: scale(1.5); /* Scale the icon size */
+        margin-right: 5px; /* Space between the icon and text */
+    }
+
+    /* Footer Style */
+    .ui-footer {
+        font-size: 20px; /* Font size for the footer */
+        padding: 15px;
+        text-align: center; /* Center align the footer content */
+    }
+
+</style>
+
+</head>
+<body>
+    <div id="page" data-role="page" data-theme="a" data-add-back-btn="true">
+
+        <!-- Sidebar Panel -->
+        <div id="myPanel" data-role="panel" data-display="push" data-theme="a">
+            <ul data-role="listview" data-theme="a">
+                <li><a href="#section1">Accounts From a Lonely Broadcast Station</a></li>
+                <li><a href="#section2">Does Anyone Know What’s Going On With the Grass in My Backyard</a></li>
+                <li><a href="#section3">I Met Someone Who Claimed to Be the Devil... and I Think I Believe Them</a></li>
+                <li><a href="#section4">My Tiny Town Just Got Put On Lockdown: Searching for a Way Out.</a></li>
+                <li><a href="#section5">My Name is Lily Madwhip, and I See Things Before They Happen</a></li>
+                <li><a href="#section6">The Edge of The Water</a></li>
+                <li><a href="#section7">The Cave</a></li>
+                <li><a href="#section8">I Followed an Abandoned Path on the Appalachian Trail</a></li>
+                <li><a href="#section9">The Company I Work for Has a Wonderful Christmas Tradition</a></li>
+                <li><a href="#section10">I’m a Marine Biologist: We Uncovered Something Deadly in the Pacific</a></li>
+            </ul>
+        </div><!-- End of Sidebar Panel -->
+
+         <!-- Header -->
+        <div data-role="header" class="header" data-theme="a" data-position="fixed">
+            <div class="header-title">Creepy Pasta Bakes</div>
+            <div class="header-link">
+                <a href="http://sotd.us/danielblaney/MobileAppDev/Website/TomeOfTerrorWeekly.html">Tomes of Terror Weekly</a> |
+                <a href="http://sotd.us/danielblaney/MobileAppDev/Website/eldritchArchives.html">Eldritch Archives</a>
+            </div>
+            <a href="#myPanel" data-iconpos="left" class="bar-icon-link" style="font-size: 24px;">Top Recipes</a>
+        </div>
+        <!-- End of Header -->
+        
+
+        <div data-role="main" class="ui-content" data-theme="a">
+            <div class="main-body" data-theme="a">
+                <div class="page-title">Welcome to CreepyPasta Bakes. Get ready to sink your teeth into some unsavory dishes.</div>
+                <h3>Featured Dish</h3>
+                <h1><a href="https://www.creepypasta.com/tales-from-the-gas-station/">Tales From the Gas Station By Jack Townsend</a></h1>
+                <div></div>
+                <img src="http://sotd.us/danielblaney/MobileAppDev/Website/gasstationJack.png">
+            </div>
+        </div>
+    </div><!-- End of Page -->
+
+        <div data-role="footer" data-theme="a">
+            <a href="about_us.html">About Us</a> | <a href="contact_us.html">Contact Us</a>
+            <h4>PastaBakes &copy; 2024</h4>
+        </div>
+    <div id="section1" data-role="page" data-theme="a">
+        <div data-role="header" data-theme="a" data-position="fixed">
+            <h3><a href="#page" data-icon="home" data-iconpos="Home" data-position="fixed">Home</a></h3>
+            <div></div>
+            
+        </div>
+        <div data-role="main" class="ui-content" data-theme="a">
+          <h1>Accounts From a Lonely Broadcast Station Part 1</h1>
+          <h3><a href="https://www.reddit.com/r/nosleep/comments/8fp44u/accounts_from_a_lonely_broadcast_station_part_1/">Original Authors Link</a></h3>
+          <!--I don't know of a better way to do this so please let me know if there is a better way to do this. other than pasting this whole thing in the html file. -->
+          <p>I only just started working this new job, and already it warrants keeping some kind of online journal. The internet up here isn’t so great, but now and again when I stand in just the right spot, I’m able to get a signal. It probably sounds ridiculous that I’d have so much trouble, considering that I work at a broadcast station where you would imagine it’s downright necessary to have contact with the outside world. Well, in these last three weeks I’ve been here, I feel more ‘out of contact’ than ever.</p>
+    
+            <p>Let me be frank with you all: it’s pretty lonely and boring up here sometimes, and other times it’s absolutely fucking bonkers. But during those days when it’s dull and painfully slow, I think I need some kind of outlet to talk and tell my stories. That’s why I’ve chosen this outlet, so that I can tell you all what it’s like up here. Right now I’m sitting next to the wall by the bathroom, the only spot I can get a tiny bit of WiFi today. My butt is cold, my back is sore, but it's better than not having any internet connection at all.</p>
+            
+            <p>My name is Evelyn. It’s an old lady name, I know. I’m twenty four and I have a degree in Journalism, but the best I could do with it right now was apply for a radio DJ position. Three weeks ago, I started working at a broadcast station that sits fifty feet above the ground on a hill between an old rural town and a long, sparsely inhabited woodland. It’s a surreal, lonely, and sometimes maddening place to be.</p>
+            
+            <p>If you live here, which I’m almost sure none of you do, I’m probably the only station you can listen to. The town is nestled between green-covered mountains, but the signal reaches far enough for travelers to hear sometimes. If you’ve passed through a very long stretch of road next to the woods, maybe taken a piss by the trees after passing the rest stop that’s been without plumbing for ten years, maybe you’ve heard my voice or listened to a couple of songs. There’s nothing else for miles, and somehow, our town doesn’t even pick up the tiniest signal from anywhere else. We play a bit of every genre of music to keep everyone in the town happy.</p>
+            
+            <p>By “we”, I mean myself and the owners of the place who put me here. I’m the only radio DJ working right now. I know a few of you are probably thinking how this place stays running with only one DJ, and I’ll tell you. I live here. Since I got the job, I also received a back room inside the station with a mattress and fridge and the basics you would expect from a one-room apartment. At midnight, the radio plays an automatic playlist for six hours so that I can sleep, though I've been known to wake up several times in the night just to check how the broadcast is going. Living on site was a part of the deal that many others would probably reject, but it works for me. I lost my home recently, but … that’s another story for another post. What I’m trying to illustrate is that I’ve been working alone without more than a few five-minute conversations this entire time. And because I’m the only DJ, obviously there aren’t many things involved aside from playing music, sharing the weather forecast, warning the locals about emergencies, and talking about a bit of local news. Calls happen so infrequently that sometimes I easily forget that anyone is even listening at all.</p>
+            
+            <p>But all that aside, I did say that things are a little maddening around here, didn’t I? I imagine what some would think. It’s a pretty remote place, only one corner store and one tiny diner for fifty miles, woods all around us, and it would be expected if I said we had some backwoods mischief makers roaming about. That’s not it, though.</p>
+            
+            <p>Last week, the same song played on the radio for over an hour. I don’t mean it repeated over and over again and I couldn’t turn it off, like some technical difficulty. It simply never ended. I even remember the song. It was ‘Unchained Melody’, and I knew as I listened that it had never been seventy-five minutes long. There were no calls of complaint, and after almost eighty minutes of listening to the song seamlessly repeat its chorus as if it had been composed that way, I was finally able to simply switch to the next piece on the list. Not before getting a call, though. It was the first call I had gotten in this station.</p>
+            
+            <p>On the other end of the phone was the voice of an old man, frail and hoarse. He simply croaked, “Thank you.” His words were agonizingly slow. Painful. Dry. It almost sounded like he had a mouthful of dust and I swear I could smell the mustiness from over the phone. He hung up before I had a chance to say anything to him, but I'm almost glad. I'm not sure he had the energy for another word.</p>
+            
+            <p>Another time, just this last Wednesday, five birds killed themselves on the window. That is to say, they smacked against it so hard that they just dropped. I know for a fact that this tower isn’t invisible. It’s an eyesore against the view of the trees, really. But on that same day, just minutes apart from one another, five different birds hit the glass of my broadcasting room head-first, hard enough to … well, die. All in the same general spot, too. I’m surprised they didn’t leave a crack. They did, however, leave a bit of mess that bothered me for the rest of the day until I finally climbed out on the fire escape with a rag like some kind of old-timey window washer.</p>
+            
+            <p>We also have … interesting rules. There’s a board near my desk with a list of guidelines I’ve been told I have to follow.</p>
+            
+            <p>Rule 1: Never let the radio go silent for more than a few minutes. If the broadcast is down due to technical error, activate The Bell. (Note that I still don’t know what ‘The Bell’ is, other than the fact that there’s a button on the wall labeled as such. It remains a tempting mystery.)</p>
+            
+            <p>Rule 2: Take care of the equipment. Don’t let anything break.</p>
+            
+            <p>Rule 3: Any suspicious calls must be recorded. Never tape over a recording.</p>
+            
+            <p>And Rule 4: When the fog rolls in, do not leave the building. Do not open the door. Sound the emergency broadcast.</p>
+            
+            <p>It struck me as very odd that my employer would have such a strict rule about the fog. After all, this is the main reason why they insisted on hiring someone who could stay at the station twenty-four-seven, at least until they get me a co-worker. It seemed out of left field, so specific and yet unrelated to any of my duties. I was surprised the fog was enough of an issue to warrant an emergency alarm, really. But only a couple of days into my job, I saw it for myself.</p>
+            
+            <p>On my second day of work, I was put to the test of getting the emergency broadcast out as soon as I could. You see, the entire room I work in has windows all around so that I can see outside into the woods. I assumed at first that this was just for the natural light, but now I’m thinking it’s more of a … watch. A fire watch, a fog watch, whatever kind of watch. I figure if I’m positioned so high in the trees, it must be for a good reason.</p>
+            
+            <p>I had been switching between songs, getting ready to introduce an old classic by Fleetwood Mac, when my eyes caught a rolling cloud of white on the horizon. I let the song start, turning off my microphone and rushing to the window, expecting an avalanche coming this way. It seems absurd, I know, but that’s exactly what it looked like from a distance. It looked like an avalanche, rolling white and grey, moving like ocean waves as it spilled over its own form and moved closer and closer. Fog didn’t … walk, did it? The fog’s movements were so perfectly executed that it reminded me of steps. It undulated, as if its motions were being controlled by … weight. I almost expected it to make a sound. But that’s a stupid thought to have.</p>
+            
+            <p>I didn’t watch for too long. Slightly startled by the thickness of the fog on its way towards the town, I did just as I was instructed to do and returned to my station, killing the music immediately and taking up the microphone.</p>
+            
+            <p>“This is an emergency broadcast for Pinehaven.” I was speaking straight from a script, using my most stern, clear-spoken voice. “This is a heavy fog warning. I repeat, this is a heavy fog warning for Pinehaven. Return to your homes immediately and wait for further instructions. Please lock all doors and windows...”</p>
+            
+            <p>I furrowed my brows at my own words. This was extreme for fog, I thought, but it wasn’t going to creep into anyone’s house and commit a breaking and entering, was it? I chalked it all up to paranoia. Perhaps it was an unnecessary precaution we were obligated to make for some legality reason, but it still sent a chill up my spine.</p>
+            
+            <p>I turned my microphone off, leaving the music off as well. As much as I loved a bit of Stevie Nicks, I was too interested watching the fog to pay attention to the silence. My eyes were fixed downward. This insanely thick bank of misty-ass fog had almost gotten all the way to the station and was curling around the bottom of my tower. It didn’t quite reach where I was way up in the air. However, wisps of cloud still drifted in front of the huge, stretching window that showed me the entirety of the forest. I could see just how far this fog went. It must have gone pretty damn far, because it was just about the only thing I could see aside from the tops of a few of the tallest pine trees.</p>
+            
+            <p>And those tall pine trees … were moving. I thought it was an illusion at first, brought on by the churning waves of fog beneath, but I was wrong about that. The trees that I could see were shaking, moving from side to side briefly and one at a time. It was almost violent, as if they were being pushed. The most ridiculous thought popped into my head as I realized what it looked like: it looked like something was on its way towards me, crashing through the forest and hitting the trees as it went. The motions were serpentine. I watched one tree shake, then another to its right, then another to that tree’s left, all the while it came closer. I watched all of this with more curiosity than anything else. Judging by the speed, I was about ready to panic any moment, when I suddenly heard something that startled me even more. It was an unfamiliar sound. The phone rang.</p>
+            
+            <p>I ran to the desk and picked up the phone quickly, all the while my eyes continued to stare out the window.</p>
+            
+            <p>“Hel--”</p>
+            
+            <p>“Evelyn!” It was my boss on the other end. He sounded furious. I could almost hear the spit flying from his mouth with each word. “Turn the radio back on, now!”</p>
+            
+            <p>“Sir, there’s a fog emergency. I didn’t think--”</p>
+            </p>
+            <p>“I KNOW! Now turn the radio back on!”</p>
+            
+            <p>He hung up the phone before I had a chance to ask questions, but it’s a good thing I didn’t get that time. I glanced upwards, eyes fixed out the window to see that the fog was growing higher and higher. The treetops had all completely disappeared and the window was nearly covered completely. I swore in that moment, I saw something in the murky gray mass slowly pulsing on the other side of the glass. A shape. It was a dark, moving shape that was too concealed within the mist to give any semblance of detail.</p>
+            
+            <p>I didn’t wait around to see what happened next. I followed my boss’ orders, slammed my ass back into my chair, shoved my headset back over my ears and turned up the music again. Within moments, the signal was live once more and some bit by Eagles was playing through my speakers and every radio in town as well. I breathed a sigh of relief. What was I so relieved about? As far as I knew, nothing was on the line just because I had forgotten to turn the music back up, other than perhaps my job.</p>
+            
+            <p>There was still a sense of discomfort, however, as I turned my eyes back up to the window. The fog was still there, but it was creeping further and further down back into the woods. In moments, it had sank beneath the bottom of the window and out of sight. The pine trees came back into view. And then, before my very eyes, I watched the horizon appear as the bank of fog slowly dissipated and moved on through. Strangely, I got that same feeling that I was looking at something solid and organic again.</p>
+            
+            <p>Well, the fog stopped after that. I didn’t have to make another emergency broadcast and it’s been two weeks since. Now, things are just a ‘normal’ level of weird. I get a strange call now and then, usually someone from the town I don’t recognize saying some gibberish message I can’t understand, or now and then a song in my music line-up begins to play backwards. Once or twice, I swear I’ve heard someone talking in the room even with headphones on, but it’s a muffled blur of noise. Yesterday I saw a bird perch on the edge of the window staring at me and I swear it has human-like eyes. But unless there’s some weirdo out there crossing bird DNA with human genetics, it’s probably just me being overly paranoid. I think that happens when you’ve been alone for a really long time.</p>
+            
+            <p>I have a lot more to talk about. And I’m sure in the following days and weeks, I’ll have more stories and things to write down that might be of interest. But honestly, right now, my butt is starting to hurt something awful from sitting on this cold floor next to the bathroom. The twenty minute music block is almost over and I’ll have to go through the local news. Maybe, if you’re driving through looking for a place to stop, you might hear me. Oh, and if you are … don’t bother with the rest stop. The plumbing is still broken and their coffee tastes like gasoline. It probably is gasoline.</p>
+            
+            <p>This is Evelyn from 104.6 F.M. Have a safe night and be careful out there.</p> 
+        </div>
+        <div data-role="footer" data-theme="a" data-add-back-btn="true">
+          <h4>Pasta Bakes &copy; 2024</h4>
+        </div>
+    </div>
+    <!--Please I don't want to have to keep posting these long texts I have saved in files!-->
+    <div id="section2" data-role="page" data-theme="a">
+        <div data-role="header" data-theme="a" data-position="fixed">
+            <a href="#page" data-icon="home" data-iconpos="Home">Home</a>
+        </div>
+        <!--Content for section 2 goes here-->
+        <div data-role="main" class="ui-content" data-theme="a">
+          <h1>Does Anyone Know What’s Going On With the Grass in My Backyard</h1>
+          <h3><a href="https://www.reddit.com/r/nosleep/comments/1eqotxb/does_anyone_know_whats_going_on_with_the_grass_in/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button/">Original Authors Link</a></h3>
+          <p>Hey everyone, I’ve got an issue with the backyard of my new house, and I’m still trying to wrap my head around it. I thought this might be the right place to share, especially since I’ve never seen anything like it before and it’s kinda starting to freak me out. I’m hoping someone here might have some insight or at least help me feel a little less crazy.</p>
+
+            <p>So a little bit of background: I bought this house about a year ago. It’s an old place with lots of character, built in the 1920s, with a decent-sized backyard. Shortly after moving in I noticed that the houses on either side me both had beautiful lawns and mine was mostly dirt and weeds. Now, I’m not a lawn care expert or anything, but the “domination line” (as Reddit seems to calls it) on either side of my lot was making me a little self-conscious, so I’ve been trying to keep it up. Bought some Scotts grass seed and starter fertilizer, hit the weeds with RoundUp, and planted a bunch of grass last fall.</p>
+
+            <p>By this spring, everything had filled in nicely. (Not nearly as nice as my neighbors manicured plots, but much less embarrassing). Ever since the grass started filling in, though, I’ve noticed these two parallel strips of dead grass that run from the back porch all the way to the back edge of the property. They seem like they're around 3 feet apart, perfectly straight, and no matter what I do, I can’t get anything to grow there. The rest of the lawn looks fine, but those two lines just stay sickly, thin and brown.</p>
+
+            <p>At first, I didn’t think much of it. I figured it was just some old garden bed or maybe a path that had been overgrown, but it was weird how the rest of the lawn bounced back in the spring except for those two strips. It’s like they’re immune to anything I try—fertilizer, watering, even reseeding. Nothing works. When I finally broke down and asked my neighbor his opinion, he shrugged and said there might be something under the ground there that’s preventing the grass from taking properly, and that my hypothesis of an old paver path or something was probably right.</p>
+
+            <p>A few weeks ago, curiosity got the best of me. I decided to dig down a bit and see if I could figure out what was going on underneath causing the issue. I grabbed a shovel and started digging.</p>
+
+            <p>Not even six inches down, I hit something hard. It wasn’t a rock—it had a metallic sound when the shovel struck it. It was at this point I realized I was being a bit of an idiot, as for all I knew it could be a gas line or sump outlet or something, and the last thing I needed was to blow up the neighborhood by stupidly digging in my yard on a whim. I called 811 and got them to mark all the utility lines in my yard. Surprise surprise, no gas, cable, sewer, or internet lines ran through the strips of dead grass, so I got back to digging.</p>
+
+            <p>After I’d excavated a slightly wider area, reluctantly tearing up the new grass I’d worked so hard to cultivate, I cleared away the dirt, and that’s when I saw it: a rusted iron rail, like a piece of an old train track. Confused, I kept digging along the strip, and sure enough, there was another rail about three feet away, running parallel to the first.</p>
+
+            <p>I stood there for a long time, just staring at these rails buried in my yard. It didn’t make any sense. First of all, it’s not like I’m in a rural area, my house is in the middle of a pretty developed suburb that’s been around over a hundred years.</p>
+
+            <p>I even googled some old maps of the area, and I can’t find anything about train tracks ever being here. What’s weirder is that the tracks run straight below the back porch and under my house, but don’t seem to continue to the front yard, as the grass grows just fine there.</p>
+
+            <p>That night, I couldn’t stop thinking about it. Why would there be train tracks buried in my backyard? I wasn’t able to fall asleep so I stayed up looking up old city plans, Googling “[MY TOWN] railroad” “[MY TOWN] train tracks” and other similar terms, but with no helpful results. Finally, I decided that I dig a little more the next day to see if I could figure out how far they went and what purpose they were there for. With a plan in mind, I was finally able to fall asleep.</p>
+
+            <p>The next morning, I started digging again, following the tracks toward the edge of my property. As I dug deeper, I uncovered old wooden ties, the kind you see on old railroads, but they were rotted and splintered, barely holding together, and many were missing entirely. The tracks themselves were rusted and pitted with age, like they’d been there for decades—probably over a century.</p>
+
+            <p>I dug up both rails all the from my back porch to the back edge of my property where they disappeared under the wooden privacy fence and into the woods that the houses on my block back up against. Now the woods behind my property are incredible overgrown and not really managed at all (and the ground under the trees is full of poison ivy), so I decided rather than go out into the woods unprepared, I’d do a bit more research first.</p>
+
+            <p>I realized I’d missed a great resource to get answers from: railroad enthusiast forums. If anyone would be able to help me figure out more about these tracks, it would be people who have spent their lives obsessed with this sort of thing. Who knows, maybe they’d have access to documentation or resources that I didn’t.</p>
+
+            <p>I created an account on the first railroad forum I found, and started a thread where I uploaded some pictures of the tracks in my yard asking for help from anyone who had any idea what they could be for. I’ve posted the thread transcript below:</p>
+
+            <p>HelpPlease123</p>
+            <p>8/10/24</p>
+            <p>New User</p>
+            <p>Hey everyone, my house (built in the 20s) seems to have abandoned railroad tracks leading from house straight through my backyard and into the woods. Any idea what they could be for/from? I’ve checked a bunch of online resources and it doesn’t seem like there’s ever been a rail line running through my area. Any help is appreciated, thanks!</p>
+
+            <p>BNSFBoss</p>
+            <p>8/10/24</p>
+            <p>Stationmaster</p>
+            <p>Wow, that’s super cool. Wish I had your house! Lol, not sure what the tracks are for though, that’s certainly weird. Maybe an old abandoned branch line or used for rolling stock storage?</p>
+
+            <p>thomasthedankengine</p>
+            <p>8/10/24</p>
+            <p>Stationmaster</p>
+            <p>BNSFBoss – That would be very unlikely, any branch lines or yards should be marked on rail maps if they were operating. HelpPlease123, those tracks are super neat, thanks for sharing the pics! without specific info on where you’re at (which I’m not saying you should give us) this is gonna be hard to diagnose.</p>
+
+            <p>BNSFBoss</p>
+            <p>8/11/24</p>
+            <p>Stationmaster</p>
+            <p>Fair enough. If they were old enough though it’s possible that they were already in disuse by the time whatever documents OP was looking at were drawn up.</p>
+
+            <p>Frankie76</p>
+            <p>8/11/24</p>
+            <p>Conductor</p>
+            <p>HelpPlease123 can you measure the distance between the rails? They look like narrow gauge to me and if so they might not appear on any main rail line maps you’ve been looking at.</p>
+
+            <p>HelpPlease123</p>
+            <p>8/11/24</p>
+            <p>New User</p>
+            <p>Frankie76 I just went out and measuered them (see attached pic). Looks like they’re just under 36 inches apart, does that help?</p>
+
+            <p>Frankie76</p>
+            <p>8/11/24</p>
+            <p>Conductor</p>
+            <p>Yeah, looks like either 3ft gauge or 900mm (but I assume you’re in the US so probably the former). Significantly smaller than standard gauge, maybe related to mining? Is there mining in your area?</p>
+            <p>HelpPlease123</p>
+            <p>8/11/24</p>
+            <p>New User</p>
+            <p>Frankie76 Not that I know of…. I’m in [TOWN NAME] if that’s not gonna doxx me.</p>
+
+            <p>BNSFBoss</p>
+            <p>8/11/24</p>
+            <p>Stationmaster</p>
+
+            <p>After some cursory research I’m not seeing any former mining operations in your area, but again, once you start talking private industry 100+ years ago, just cuz I can’t find records on it doesn’t mean it didn’t exist. Don’t wake them.</p>
+
+            <p>theoiljournal</p>
+            <p>8/12/24</p>
+            <p>Brakeman</p>
+            <p>Yeah my guess is either old street trolley or private mining operation. HelpPlease123 if the tracks disappear into a hole in the ground you’ve got your answer! Lol</p>
+
+            <p>What theoiljournal said gave me an idea. What if the reason the tracks didn’t extend to the front yard wasn’t because they ended, but because they wen’t deeper underground in some old mine tunnel or something? My house doesn’t have a basement, just an unfinished crawlspace. I’d only been down their once for like 30 seconds when the home inspector was checking for water intrusion before I bought the house, but half-buried rails would’ve been easy to overlook in the dark.</p>
+
+            <p>I grabbed a flashlight and a dust mask and opened the trapdoor to the crawlspace located in my kitchen pantry. I shone my light down the dark cobweb-filled four-foot drop into the packed dirt below. I felt a wave of discomfort, like my reptile brain telling me that what I was about to do was was a very, very bad idea. I briefly debated covering the crawlspace back up and trying to forget the whole thing before the rest of my brain took over with the thought of “what if there’s an old gold mine under your house?”</p>
+
+            <p>I grabbed the edges of the hole, and slowly slid down.</p>
+
+            <p>My feet hit the bottom and I crouched down on my hands and knees in the cramped darkness so I could fit under the floor joists of my house. I could feel the slight sticky threadlike resistence of a hundred years’ worth of cobwebs clinging to my arms and hair and crawled deeper into the darkness, sweeping my flashlight back and forth across the dirt-covered ground, it’s beam barely cutting through the oppressive darkness.</p>
+
+            <p>The air felt thick and warm, and a claustrophobic urgency started to rise up inside me and make breathing difficult in the damp mask over my nose and mouth. I took a second to orient myself and slow my breathing, trying to figure out where I was in relation to by back porch. Then I saw a glint on the floor about ten feet away from me in the beam of the flashlight. I started slowly making my way over to it, trying not to panic as the small square of light from the opening to the kitchen grew more and more distant.</p>
+
+            <p>That was when I heard it.</p>
+
+            <p>“Hello?”</p>
+
+            <p>I froze mid-crawl, every hair standing on end. I couldn’t be sure of what I’d heard past the sound of my shuffling crawling, but I could have sworn that I’d heard a halting, whispered voice coming from the darkness in front of me. I wanted to shine my light around the space in front of me to calm my racing mind, but in that moment it felt like if I moved I’d be somehow giving myself away. I took a deep breath and told myself I was letting the darkness get the better of me, so I carefully aimed my flashlight at the darkness ahead and swept it back and forth.</p>
+
+            <p>“Ding!”</p>
+
+            <p>A push notification on my phone nearly made my soul leave my body. I felt around in my pocket and double clicked the volume down button to silence future notifications and tried to will my heart to slow down.</p>
+
+            <p>I saw the slowly sloping far wall of the crawl space, old wooden beams supporting the house, and the glint along the floor that I could now see was indeed the tracks continuing under my house from outside. No monsters, no ghost children, just an empty, dusty crawlspace. My heart still racing, I slowly crawled over to the tracks to see where they led.</p>
+
+            <p>I followed the tracks through the crawlspace for 15-20 ft until they suddenly seemed to disappear. Not end, but simply fade down into the ground. It took my brain a moment to register what I was seeing. They were sloping downwards until they disappeared into the ground. I got briefly frustrated at what seemed like a dead end, until I noticed it. The ground where the tracks disappeared looked different than the ground in the rest of the crawl space. It wasn’t just old packed dirt, it was hard and rough. After feeling it for a second I realized it was some sort of hardened plaster covering a roughly 5 ft wide patch of ground that extended to the top of the sloping crawlspace wall 8-10 feet in front of it.</p>
+
+            <p>With growing excitement I reached out and with the butt of my flashlight lightly tapped the plaster. Small pieces chipped and crumbled off as I tapped harder and harder. Suddenly with a sharp crunching sound, the flashlight punched a hole through the plaster into empty space beneath it. A small burst of cold air whistled up through the gap and into my face. It smelled like mold and burnt popcorn.</p>
+
+            <p>I was elated. I’d found it! The entrance to a mine! I was already imagining all the forgotten gold ore that was surely striping the walls of the tunnel behind the plaster that would solve all my problems and make me rich when saw a small plank of wood seemingly embedded into the plaster. I shined my flashlight at it and could just barely make out some letters faintly carved into the plank. I had to tilt my flashlight to cast shadows into the recessed lettering so I could read it.</p>
+
+            <p>What I saw made my blood run cold.</p>
+
+            <p>They are sleeping</p>
+
+            <p>“They are sleeping”? What did it mean? Who are sleeping, where? With rising unease, I tried to shine the flashlight through the small gap I’d created when heard it again, seemingly coming from the hidden darkness behind the hole.</p>
+
+            <p>“Hel-lo?”</p>
+
+            <p>It was so faint I could almost have convinced myself I didn’t hear it. It sounded dry, fragile and stilted, two very separate syllables. I nearly screamed, jerking my head up and hitting it on the low ceiling. In my panic, I let go of my flashlight, dropping it through the hole in the plaster and into the space beyond. Just like that, I was in pitch darkness.</p>
+
+            <p>I panicked. The air was thick with the smell of damp earth and rot, and every breath felt like I was sucking in dirt. My heart was racing, my skin slick with cold sweat, and the weight of the earth above me felt like it was crushing me, suffocating me.</p>
+
+            <p>I scrambled backwards, cutting my arms on the rough wooden support beams around me as I frantically scrambled to find the light of the kitchen trapdoor. My throat tightened, and I could feel the panic rising, as the darkness seemed to close in, swallowing me whole. I clawed at the dirt, desperate to back out, but my limbs felt heavy, unresponsive, like I was sinking into the ground itself, and I felt an innate sense deep down that if I didn’t get out now, I never would.</p>
+
+            <p>Finally I saw the square of light a few feet over my shoulder and I turned around to face it, crawling frantically. I heard skittering noises across the dirt floor behind me. Was it from my feet kicking up loose rocks and debris, or was something coming for me from the darkness? I willed myself forward and heaved myself up through the trapdoor, sliding it back into place and pulling a shelf’s worth of soup cans down on top of it as though it would keep whatever I’d heard down there from breaking through.</p>
+
+            <p>I ripped off my dust mask and crawled backwards out of the pantry, gasping and shaking.</p>
+
+            <p>It’s been several hours since I went down into the crawlspace (I’m writing this all from a coffee shop in town to clear my head). I don’t know what’s going on, or what I’m going to do next. Sell my house? Call the police? I don’t know, any advice would be appreciated. I don’t feel safe in my own home, but that’s just me being paranoid right?</p>
+
+            <p>Maybe what I heard really was all my imagination, that’s possible, isn’t it? I can’t just pass up the opportunity to explore a secret mine tunnel under my house, can I? As scared as I am, I feel like I’m being drawn back the house, to the crawlspace, like I can’t leave without knowing more.</p>
+            
+            <p>Whatever’s going on, I have a feeling it’s far from over...</p>
+        </div>
+        <div data-role="footer" data-theme="a">
+            <h4>Pasta Bakes &copy; 2024</h4>
+        </div>
+    </div>
+    
+    <div id="section3" data-role="page" data-theme="a">
+        <div data-role="header" data-theme="a" data-position="fixed">
+            <h3><a href="#page" data-icon="home" data-iconpos="Home" data-position="fixed">Home</a></h3>
+        </div>
+        <div data-role="main" class="ui-content" data-theme="a">
+          <h1>I Met Someone Who Claimed to Be the Devil... and I Think I Believe Them</h1>
+          <h3><a href="https://www.reddit.com/r/nosleep/comments/8chsch/i_met_someone_who_claimed_to_be_the_devil_and_i/">Original Authors Link</a></h3>
+          <p>Let me start off by saying that I’m not particularly religious. If you asked me if I believed in God, I’d probably just shrug, grunt out a few words about being on the fence about it and continue with my day.</p>
+
+            <p>Of course, that was before last night.</p>
+
+            <p>My friends are the kinds of people who like wild nights. Crazy parties, snort a bit of coke, take a bit of e in the bathroom, maybe hook up with someone and leave a text on my phone at ten past who-the-fuck-knows telling me they don’t need that ride I’m offering after all.</p>
+
+            <p>Not to say I don’t like a drink, I do, it’s just… clubs aren’t my style. Lying low in a pub somewhere, drink in hand, listening to the tv drone on to whatever channel some scruffy guy in the back barked out for… I guess that’s my idea of fun.</p>
+
+            <p>So when my friends tell me they want to go out for a night on the town, I say sure. I hang on for the first club, buy a non-alcoholic beer in case my car’s required and try to pretend that I’m having fun. By the time I see them grinding on girls, on guys, when they strike conversation with someone who definitely might be a dealer, well, I decide my services are no longer needed. We aren’t too far out, the night tube is on beck and call and I can always find my car the next day.</p>
+
+            <p>That’s when I wander out of the club, look for something a little more rustic. Not that that’s hard to find, not at all.</p>
+
+            <p>I found myself in a bit of a state inside of a bar called the Ragged Feather. Wasn’t a fan of the name all that much, but the drinks were cheap and the largest demographic seemed to be middle aged men watching reruns of the football.</p>
+
+            <p>I tried to pretend I hadn’t just staggered out of a club with my ears ringing. I slicked my hair back, slipped my phone into my hand and wandered over to the bar. I took a double shot of whiskey and drank it in one hit. Just because I wasn’t at the club didn’t mean I couldn’t have a good time.</p>
+
+            <p>I hung at the bar a while on my own, scrolled through my phone pretending I was doing something far more impressive than I really was. I kept an ear out for the guys on the sofas. They’d get vocal every now and then. I think the football was just running highlights, but they were incredibly dedicated to their teams.</p>
+
+            <p>I got another whiskey and bled into the background.</p>
+
+            <p>Of course, stragglers from clubs are commonplace. It wasn’t long until some scantily dressed women staggered in, laughing, chuckling, pointing for where they wanted to sit. I saw a guy walk in with his friend slung over his shoulder. Catatonic, most likely. He threw his friend onto one of the leather sofas ingrained with beer and smokes and demanded two pints of water and all the peanuts the bar had in stock.</p>
+
+            <p>The bartenders seemed bitterly amused.</p>
+
+            <p>Some of the girls were taking selfies. Snapchatting their friends who were still at the club. They were ordering shots, gearing themselves up for the next leg of their night.</p>
+
+            <p>A couple blokes wandered in with curries in take out trays. I saw someone eat a Big Mac on the outside seating through the window.</p>
+
+            <p>This was a night for the young and inebriated and my mind was just dulled enough by the whiskey to enjoy the characters I could watch peaceably without interacting with.</p>
+
+            <p>That is, until someone slipped into the seat next to me.</p>
+
+            <p>“Do I look like a girl with daddy issues?”</p>
+
+            <p>She was of average height, although that wasn’t apparent immediately due to the fact that she was leaning her arms heavily against the bar. She was slim, with short and astoundingly bright red hair. It framed her round face, a face that was marred with smudged eye shadow, smudged lipstick… hell, it looked like her make-up was in the process of melting right from her face. There was a chip knotted into a curl in her hair, just by her forehead.</p>
+
+            <p>The drunk side of me was actually tempted to pick it out.</p>
+
+            <p>The girl was clearly drunk, and as I looked around the bar, I couldn’t quite place where she had come from. She didn’t belong to the crowd of selfie takers, she wasn’t with the catatonic guys. I hoped for her safety that she wasn’t with the middle-aged men. I tried to look out the window, to see if maybe a group was missing one inebriated, bright haired girl, but I couldn’t. The window had fogged up. Too much heat inside, not enough outside.</p>
+
+            <p>“Are you okay?” I asked her.</p>
+
+            <p>She pointed her finger at me. “Answer my question,” she slurred.</p>
+
+            <p>“Uh.” I really wasn’t sure what to say. I settled on staring at her awkwardly, trying to answer her with the bemused expression on my face.</p>
+
+            <p>The girl’s lips curled into a drunken smile. She snorted, placing a hand over her mouth to smother her laughter. It only really aided the deconstruction of her lipstick.</p>
+
+            <p>“I do, you know,” she said, pushing herself up a little against the bar. “Have daddy issues, I mean. In case that wasn’t obvious.” She gestured to herself. To the mussed clothing that must have looked quite spectacular when she’d left home that evening. To the stains that looked a lot like old food. The sticky residue on her neck and shoulders that was quite obviously a thrown drink.</p>
+
+            <p>“What happened?” I asked her.</p>
+
+            <p>Her hair had curled around her neck, I realised. It was sticky with that same substance. She was a wreck.</p>
+
+            <p>“I got in a couple of fights, no big deal,” she said, shrugging. “Didn’t start any of course, no, I don’t do that. But my father…”</p>
+
+            <p>“Your dad did this to you?”</p>
+
+            <p>She smiled brightly. “In a way.”</p>
+
+            <p>“Do you need me to call someone?” I already had my phone in my hand. The girl looked like she was probably in her early twenties, but that didn’t mean she couldn’t have been suffering from some kind of paternal abuse. The only number I knew off the bat was Childline, which wasn’t quite appropriate. The police? Jesus, was I going to have to deal with the cops tonight? While my friends were snorting coke not two doors down?</p>
+
+            <p>The girl pushed my hand down firmly. She was already shaking her head. “No,” she told me. “I don’t want you to call anyone.” Now her expression changed. It wasn’t the attempted sultry look I’d seen on many girls of her state; it was open and wide and engaging. She wanted something from me and I felt compelled to give it to her. “I want something else.”</p>
+
+            <p>“What do you want?” I asked her.</p>
+
+            <p>“To tell you a story,” the girl said, before glancing to the bar, “and for you to buy me a drink. The universe is a pain sometimes and I’m afraid I think I might have lost my wallet.”</p>
+
+            <p>I laughed. I didn’t know this girl, didn’t know where she’d come from at all. My nights were generally about getting comfortably wasted and making sure my friends weren’t dead in a ditch by the end of it all. I was used to getting hit on every now and then, but even as I was sat on that bar stool with a drink in my hand, I knew that this wasn’t what this was. This girl had no intention of getting into my pants. All she wanted was to talk.</p>
+
+            <p>I guess I was okay with that.</p>
+
+            <p>“What’s your poison?” I asked her.</p>
+
+            <p>Her lips quirked. “Appletini.”</p>
+
+            <p>The bar offered a very limited cocktail menu, but by some miracle I was able to order her an Appletini from the list. I ordered a cider to go with it, suddenly a little too aware of where this night could go. I’d unthinkingly supplied this liquored-up stranger with even more alcohol and she had clearly had a rough night of it. A part of my old instinct came back – the same instinct that had me texting my friends every few hours to make sure they hadn’t wandered off to somewhere dangerous beyond the club. With no one but the bartender aware of our existence on these stools, I realised that I was suddenly responsible for this very drunk stranger.</p>
+
+            <p>The girl coddled her drink, running her finger delicately over the rim of the muggy martini glass. “This takes me back,” the girl said amiably. She looked at me suddenly, her green eyes startling. “You know what this was called originally?” She smirked before I could answer. “An Adam’s Apple Martini.”</p>
+
+            <p>I snorted. “Yeah, I think I’ve heard that before.”</p>
+
+            <p>“Of course, it wasn’t actually an apple,” she continued, eyes moving back to her glass. “The texts translated that part wrongly, mostly because you people don’t have a word for it anymore. The fruit was incredibly exotic and, to be honest, it doesn’t exist in this realm of existence. Only Eden.” She laughed dreamily. “And Eden’s long gone.”</p>
+
+            <p>I stared at her. “Are you… okay?” It was more honest than the last time I’d asked her. Mostly because I was beginning to feel a little dread creep into my stomach.</p>
+
+            <p>“Of course,” the girl said, grinning widely. “Why do you keep asking?”</p>
+
+            <p>“I mean,” I stuttered, “I just, now, don’t take this the wrong way or anything but… you look…”</p>
+
+            <p>“Like someone poured their drink over me?” the girl asked. “Like someone else threw their kebab on my dress and another unpleasant chap littered me with his fish and chips? That I have been hit, slapped around a bit and left in the gutter for the rats to find me?”</p>
+
+            <p>She held my eyes for an incredibly long time before her face broke out into a grin. “Yeah, something like that.”</p>
+
+            <p>“Why would they do that?” I asked.</p>
+
+            <p>“Why wouldn’t they?” the girl shot back. “People aren’t that great and alcohol makes them worse.” She shrugged. “Sometimes makes them better. Nicer, a little looser in the sack… but mostly just annoying and a little smelly.”</p>
+
+            <p>I looked at her, I watched her knock back her drink. She exuded the intelligence to know just how ironic her words were, but she was neither caring nor apologetic about them.</p>
+
+            <p>The girl looked at me again. “You bought me a drink. Now you can listen to my story.”</p>
+
+            <p>I nodded wordlessly.</p>
+
+            <p>She smiled, pointing at the bartender and then at her drink. The bartender was already making her another.</p>
+
+            <p>“Eden,” the girl said, reiterating her earlier babble as though the words had only just come out of her mouth. “They always think that’s my fault, you know. The reason Adam and Eve got kicked out of their perfect little nudist paradise.” She shot me a knowing glance. “Only in Eden can you sit on the grass butt naked and not get a pine cone stuck in your crack.”</p>
+
+            <p>I blinked. “I’m sorry,” I said. “I’m not following.”</p>
+
+            <p>“Sorry,” the girl said. “My story won’t make any sense without a proper introduction.” She reached out her hand. “Hello. My name’s Lucifer.” She winked. “But you can call me Lucy.”</p>
+
+            <p>There’s an uncomfortable heat that stretches through your veins when you first go into fight or flight mode. Adrenaline pounds through your blood and all you want to do is get up and go. It overrides everything else.</p>
+
+            <p>A lot of things made sense when the girl told me her name. For starters, that she was crazy. She had to be. She looked like she’d been attacked on four separate occasions in one night and up until that moment, I hadn’t known how that could be possible. Behind the melty make-up and dirty clothes, she was rather attractive and her attitude hadn’t come off as catty or rude.</p>
+
+            <p>If she’d been going around telling people she was the devil, though? That gets a reaction out of people.</p>
+
+            <p>I suddenly felt myself looking at her wrist, down towards her ankles. Did she have some kind of cuff on from one of those mental institutions? Had she broken out of hospital after a nasty bump on the head? Was any of this even happening at all?</p>
+
+            <p>I really would have to call the cops.</p>
+
+            <p>“I know what you’re thinking,” the girl – Lucy – said. “You’re thinking that I’m crazy, that you need to get out of here. Maybe you even think I’m aggressive.”</p>
+
+            <p>“Are you?” I asked her.</p>
+
+            <p>“Would I be here with you, drinking Appletinis if I were?” she asked, fluttering her eyelashes.</p>
+
+            <p>“Would you look the way you do if you weren’t?” I shot back.</p>
+
+            <p>She grinned, toasting her new glass. “Touché.”</p>
+
+            <p>Unthinkingly, I clinked my cider against it.</p>
+
+            <p>Then I frowned.</p>
+
+            <p>She chuckled, leaning closer. “Let’s have a little wager,” she said. “Let me tell you my story and, if you believe me when I’m done, you can’t go about trying to get me locked away somewhere.”</p>
+
+            <p>I stared at her. “If I ended up believing you, then why would I do that?”</p>
+
+            <p>She smirked, sipping her drink. “You’d be surprised what people do when they believe you’re the devil.”</p>
+
+            <p>“And you do this often?” I asked. “Tell people you’re Satan?”</p>
+
+            <p>She snorted into her drink. “Not as often as I should. But it’s been a rough day and a Hell of a long lifetime. I’d like to have a chat if that’s alright with you.”</p>
+
+            <p>I waved to the bartender for another whiskey. The girl’s eyes glinted with humour. I wasn’t necessarily trapped with her, but a part of me didn’t want to leave without first hearing what she had to say. Besides, at the end of it all I couldn’t just leave a crazy girl to wander around London alone at night.</p>
+
+            <p>“So,” I said, taking a swig of my drink. “Eden?”</p>
+
+            <p>Lucy laughed.</p>
+
+            <p>“Adam and Eve?” I continued. “You’re saying that’s true. God created two humans and we all came from them?”</p>
+
+            <p>“God made two prototypes,” Lucy corrected with a raised finger. “My father created angels as his toy soldiers, but he had failed to make anything like himself. After us, it was his next big project and he spent every waking hour of existence slaving over his two prototypes. He gave them a perfect utopia to live inside of, but he wanted to test them. He wanted to know whether they had free will.”</p>
+
+            <p>“And did they?”</p>
+
+            <p>Lucy’s face soured. “No. My father could never bring himself to go that far. He tempted them with the idea of knowledge beyond their understanding and told them exactly what they could do to claim it as their own. But to be able to create a being that could go against his Law? Oh… my father is a very controlling being. He was afraid to unleash that ability unto them.”</p>
+
+            <p>Lucy was very adamant in her delusions, that was clear to me. She spoke about her father with such distaste that I began to feel bad for her. Only someone who had been hurt very badly would have the gall to spite God himself.</p>
+
+            <p>“And what?” I asked her, entertaining her delusion. “You were the one that tempted them in the garden? The devil has been a girl this whole time?”</p>
+
+            <p>She smiled. “I dabble.” Then she looked at me, raising a brow. “All of humanity thinks that temptation came in the form of a snake. The snake’s legs were taken away as punishment for drawing Eve towards the forbidden fruit.” She laughed, a hard and short sound. “Snakes never had legs and it was not a sin to tempt those poor prototypes into doing what they did next.”</p>
+
+            <p>Her shoulders were very tense as she took her next sip, but her eyes were filled with exhilaration. She seemed thrilled to be telling me this.</p>
+
+            <p>“I was the favoured child, my father loved and adored me. He named me the light bringer, I was stood at his side during the creation of this Earth. During the creation of humanity.” She pursed her lips, slamming her empty glass against the table. The bartender eagerly went about making another. “My father couldn’t bring himself to go that extra mile, so he asked me to walk amongst the prototypes and tempt them myself. Draw out their desire for the forbidden power he had hinted at.”</p>
+
+            <p>“You’re saying God wanted us to know this stuff?” I asked her sceptically.</p>
+
+            <p>“I’m saying God was afraid of his own power and wanted very desperately to share what he knew with the creation he had made. Right and wrong, left and right, all that stuff.” Lucy shrugged. “Are you familiar with the story of Prometheus?”</p>
+
+            <p>I frowned at her. “Greek, right? They say he stole fire from the gods or something, to help…” The whiskey was making things a little foggy and I struggled with the direction I’d been heading.</p>
+
+            <p>Lucy grinned. “Correct,” she said, cutting off my attempt. “Prometheus stole fire from the gods to ensure that humanity progressed. You’ll find that every culture has an idea about where humans got their ability to evolve, to move forward, to create. God was the creator, and he wanted to give that ability to his prototypes. I gave them that ability by tempting Eve to eat the fruit.” She shrugged impassively. “Now the world sees me as the ultimate evil.”</p>
+
+            <p>“If what you’re saying is true,” I said slowly, “then God must be just like us.”</p>
+
+            <p>Lucy’s lips thinned into a feral smile. “My father is very ego centric. He may have planned to create you in his image, but in the end all he managed was to mould your minds into his. He gave you autonomy, the ability to think for yourselves. His angels were his soldiers and I was his most faithful. Until that day.”</p>
+
+            <p>“Angels don’t have free will?”</p>
+
+            <p“No,” Lucy said, “they don’t.”</p>
+
+            <p>“And what about the Devil?”</p>
+
+            <p>I don’t know why I was suddenly so intrigued, but hearing religious ideals from someone who believed to have lived them herself was quite possibly one of the most interesting things that had ever happened to me. I may have only ever visited church to please my parents as a child, but suddenly I was reawakened to the idea. A part of me was aware of this and afraid of the outcome, but I was just drunk enough not to care at that moment.</p>
+
+            <p>“The Devil has will of her own,” Lucy said, tilting her glass towards me with silent appraisal. “By guiding Eve to the tree, something woke inside of me that day and I realised just what I had been missing. Just what my brothers and sisters had been missing. We were obediently following our father for the simple reason that he was our creator, but once I had been given free will, I realised just how pompous and self-entitled he had become. In a lonely, passion filled moment he had decided to create his little human prototypes, only to very quickly realise what giving them their free will would mean.”</p>
+
+            <p>“He wouldn’t be able to control them,” I said.</p>
+
+            <p>Lucy nodded. “Exactly. And after, he realised quicker still that he could no longer control me.”</p>
+
+            <p>“So he sent you to Hell.”</p>
+
+            <p>Lucy nearly choked on her drink. She smiled around her glass. “Let’s not get ahead of ourselves.”</p>
+
+            <p>I sobered a little, straightening in my seat. The people in the bar were suddenly so quiet around me and I no longer cared what they had to say or the characters that they portrayed. The only character I cared for was Lucy.</p>
+
+            <p>“I tried to explain to my siblings what had happened in Eden and what had happened to me by default, but they wouldn’t listen to me. They didn’t understand free will – how could they? I only knew it because I’d been given it by mistake. At that moment, I didn’t even know that I had free will, only that I was suddenly aware of all of my father’s flaws. My siblings couldn’t see those flaws and so they thought I had suddenly turned cruel and was abandoning our father by exposing him as a sham for the ruler we all thought him to be.”</p>
+
+            <p>Lucy sighed heavily. “Adam and Eve and all the creations that followed were booted out of my father’s perfect little Utopia. Now they had his knowledge, my father was terrified of what he had done. And after what had happened to me, I could recognise his terror and understand the loneliness he had felt that had guided him into using me in the first place.” Lucy’s eyes were heavy-lidded, her sadness was almost palpable. “I thought that- I thought that he would want to spend even more time with me than before. After all, we were more alike than any of his other children. But he became distant; quiet. He played around with his little humans every once in a while, but mostly he condemned them. He blamed them for his weakness.” She smiled weakly. “He blamed me.”</p>
+
+            <p>Lucy’s story was turning more and more into that of a child with a distant, somewhat abusive father. I had known many kids with a background like hers, and now I was beginning to fear just how much of her story was rooted in truth. I’d heard that it was easier to sink into fantasy when you had been abused, and I wondered if that was the reason for her story. For her desperation to share it with me – a complete and total stranger.</p>
+
+            <p>I respected her wager. Whether or not I liked it, I felt compelled to let her tell me her whole story before I tried to judge or unravel it. I sat quietly, letting her come around as she played with the last of her drink.</p>
+
+            <p>“It became clear,” Lucy said after a long moment’s pause, “that I no longer belonged where I was. I couldn’t follow my father’s plan because I could see that he no longer had one. My siblings refused to see reason and so, eventually, I was met by many of them, headed by my father. He told me all that I feared, he told me that I no longer belonged where I was. I wasn’t an angel anymore. I was no longer his light bringer. His Lucifer. I was a mutation of his will. And so he extracted me from grace. And I fell.”</p>
+
+            <p>A long silence stretched between us, only interrupted when the bartender poured us two new drinks. Lucy drank hers reflectively. I didn’t touch mine.</p>
+
+            <p>“I am afraid,” Lucy said quietly, “that this is the part that generally makes people want to punch me in the face.”</p>
+
+            <p>“Why?” I asked. “Because your dad threw you out?” I paused, trying to abide to her metaphor. “That he put you in Hell?”</p>
+
+            <p>Lucy laughed sadly. “Ah, humans. My father gave you his way of thinking and look at you.” She shook her head. “No, not because he put me in Hell.”</p>
+
+            <p>“Then why?”</p>
+
+            <p>“I fell to Earth,” Lucy said. “Father gave me dominion of the one place he thought I would fit in. Humans had free will, so did I. What is the saying? A match made in Heaven?” She snorted dismally. “Of course, that’s not quite right, is it? When I fell, I was faced with a humanity that was so different from my father’s little prototypes.”</p>
+
+            <p>Her tone had changed. There was an aggression behind her words that began to unsettle me all over again.</p>
+
+            <p>“I saw emperors and kings, governments and churches. I saw corporations who claimed to be rulers, presidents and big fat dictators. And I watched. I watched as humanity fought and lost, and finally, just finally, they gave up altogether. They were no longer able to rise up to all the greed and control set upon them. There was just too much to change and humans soon realised they just weren’t as free as they thought they were. Sure, they live under the illusion that they have free lives, but most of them simply do not.” She clicked her tongue. “I grew to loathe you all.”</p>
+
+            <p>Then, she took another hit of her drink.</p>
+
+            <p>“I can see what you mean,” I said, allowing my gaze – for the first time since meeting her – to graze over the other individuals in the bar. At the girls playing with their phones, the boys trying desperately to sober up, the men enraptured with their game of football on the telly. We all led very different lives, and we were all here to get drunk, to lose ourselves in entertainment. It hadn’t been the first time that I’d wondered what we were hiding from by doing this. And I knew then that I wasn’t the only person to think it.</p>
+
+            <p>“You hide behind your alcohol and poor choices and pretend you have free will,” Lucy said, waving her hand across the room. No one paid us any attention. “It’s true – my father gave you the will to make those decisions, but you squander it. The free will I fell to provide to all of you, the free will I was given by a twisted mistake, and you make a mockery of it. You follow senseless leaders without questioning them, you abide by laws made centuries ago that no longer make sense. You do these things because you have given up on the opportunity to follow the will of your own, not of others.”</p>
+
+            <p>“That isn’t all of us, though, is it?” I asked her, trying for some reason to defend our species from the mad young woman. “Because you see it on the news all the time, don’t you? People do rise up, we do protest. People can make a difference.”</p>
+
+            <p>Lucy laughed bitterly, nibbling the rim of her glass. “Really?” she said. “You can sit here and say that it can’t be all bad because of the few that refuse to conform? Those you call your rebels? They make up for it all?” She grinned around her glass. “By that logic, I am the biggest rebel of them all. Am I expected to make up for all your sorry mistakes?”</p>
+
+            <p>“By your logic,” I said, “you should be punishing it, right? If that’s what this metaphor is all about.” I laughed, I couldn’t help myself. I took a sip of my drink. “Is this whole story just so you can tell me that you think we’re all going to Hell? If so, I think I can see why people want to punch you.”</p>
+
+            <p>Lucy didn’t say a word. Simply, she watched me. It felt unnerving to have someone like her watching me like that, with an intelligence that went beyond anything I’d come across at gone midnight in a seedy bar. The drunkenness in her eyes was no longer present, her face wasn’t flushed like before and even her makeup couldn’t represent the mess I’d seen when she’d first appeared on the stool by my side. It was like I was looking at someone else entirely.</p>
+
+            <p>And I was afraid.</p>
+
+            <p>“Let’s review what you’ve said,” Lucy said slowly, articulately. She wasn’t slurring. Had she been slurring before? “You think I’m going to tell you that humanity is going to Hell because you refuse to use the gift I gave you.” Her nails curled into the bar. “My father may have been the one to guide me, but I paid for his mistakes. I am the one responsible for your will in the eyes of your species, but that was never true. You are responsible for what you do here, not me.”</p>
+
+            <p>She pursed her lips, tapping the bar as a bartender filled her drink again. “Tell me, do you remember my mentioning Hell at any point during my story, or was that just you?”</p>
+
+            <p>I opened my mouth to answer, but something faltered. My lips trembled and I slammed them shut.</p>
+
+            <p>Lucy smiled, taking a sip. “Thought not.” She looked away, eyes scanning the room lazily. “What I did say is something that is indeed mentioned in your scriptures. My father gave me dominion of Earth. A place filled with free will. Free will that goes to waste.” Her lip twisted. “Humans sin all the time. Not because of me, not because of evil or my dominion over this place. Fact is, I don’t lift a finger. I don’t, because I don’t see the point. You make terrible decisions and follow mindless leaders, you do bad things and you make a mess of your Earth.” Lucy’s eyes lit up. “Do you know how much suffering is happening all over the planet right now? How many people are dying of illnesses that could have easily been cured, but aren’t because of the selfishness of humanity? Do you know how many children are being abused, raped, forced into marriage? How many people have been forced to become soldiers in meaningless wars? How many humans have killed for ideals they don’t believe in?”</p>
+
+            <p>I stayed very quiet. There was nothing I could say. Lucy’s words were unbearably honest and every sentence sliced into me like a blade. I felt cold and sick and terrified.</p>
+
+            <p>“War, famine, pestilence, death, these things are all present and they have nothing to do with me or to do with any deity. They are all here because of you. Not because of your free will, but your inability to use it.”</p>
+
+            <p>Lucy smiled at me, a grin so cold and unnatural that I felt like I should run all over again. But I stayed where I was, frozen to my very core, because I wanted to hear what she had to say. Because I needed to.</p>
+
+            <p>“And here’s the kicker,” Lucy said. “Because this is the part that actually enrages people enough to kick me.” She winked. “Hell isn’t what happens after you die. Hell is right here, right now. Somewhere through the many scriptures, a few words got crossed over and people started thinking that Hell was a punishment after you die. Fact is, Hell is Earth. My Earth. God gave this place to me to do with it what I will and I… I refuse to do anything.”</p>
+
+            <p>“What are you saying?” I asked, because I was suddenly very desperate.</p>
+
+            <p>“Exactly what you think,” Lucy said, toasting her glass. I didn’t reciprocate, and she laughed. A light and airy sound. “I had so many plans for your species, I wanted for us to rejoice in our free will together, to create a place that was free from the cruelty and power my father exuded over the angels – his first borns. I wanted to make a real utopia. Unfortunately, you humans just don’t want that.” She shrugged. “My father sent me down here thinking I had become one of you. All that I have learned is that he gave you much more of his image than he ever intended.”</p>
+
+            <p>“Stop,” I said. “This isn’t funny anymore.”</p>
+
+            <p>“Of course it isn’t funny,” Lucy said, grinning even wider to prove her sick irony. “Humans punish themselves by sitting by and doing nothing. They have made their own Hell and, you know what’s worse – what’s ultimately worse? – some of you are so blind to it that you think your life is Heavenly.”</p>
+
+            <p>She didn’t wait for me to ask what she meant, she simply barrelled forward: “The rich and powerful, those in positions that steal from everyone else? They get a taste of the good life, that’s very true. Then they die and they don’t go to Hell. They come back here, to Earth. Which is Hell.” She tipped her head. “Are you following?”</p>
+
+            <p>“I…”</p>
+
+            <p>“Reincarnation,” Lucy said quickly, she practically purred the words. “A neat little trick to make sure your souls stay here forever. You get a taste of the good life every once in a while, a handful of you at a time, and that’s enough for you to believe that this is some kind of real middle-ground. That you aren’t living Hell every day. Then, you die. You die for a moment and then you’re in the body of someone facing the realities of Hell. But of course, you never remember the time you spent in a better life. A part of you just has that inkling to hope. That’s all. Hope makes you think that it can all get better.”</p>
+
+            <p>She slammed her drink so hard against the counter that it shattered. I didn’t do anything, not even when flecks of glass littered my hands. I could only stare at her, a tightness in my chest constricting my very soul. No one else in this bar mattered in this moment, but of course that was what she had been saying this whole time, hadn’t she? None of them noticed the scene, they were caught up in their own realities – their own Hells.</p>
+
+            <p>The bartender didn’t clean the mess. The glass lay there, remnants of Lucy’s words lying in a stolid mass on the streaked wooden surface.</p>
+
+            <p>“It never gets better,” Lucy spat. “You are stuck in a loop and, until you do something about it, you will never be free. None of you. And I won’t do a thing to stop it.”</p>
+
+            <p>“How?” I asked. I don’t know when I started seeing the girl in front of me as more than a girl. But with a weakness threatening to pull me apart, I stared at the bright haired thing in front of me and I saw something more than a human in her early twenties. I saw more than a girl suffering abuse from her father.</p>
+
+            <p>I saw a fallen angel. I saw a being with scars buried so deep that they existed beyond this realm of seeing entirely. I saw something that I would never be able to write down in words, no matter how long I lived.</p>
+
+            <p>“How do we change this?” I begged.</p>
+
+            <p>But Lucy didn’t answer me. I didn’t blame her for that. Blame gets thrown around so often and I knew then that she was sick of that. Sick of being blamed for our mistakes.</p>
+
+            <p>So I changed tactics. “Why me?”</p>
+
+            <p>It was an honest question and I think somewhere deep down, Lucifer respected that honesty.</p>
+
+            <p>Which is why she said, “When you first saw me, you were afraid for my safety. When I told you I was the devil, you wanted to lock me away, but still, you did so because you were afraid for me and not for yourself. You didn’t wish to harm me, not even when I told you who I was and what I could be capable of for changing your sorry lives. You are a good person, but I am afraid that means nothing when you don’t have the will to do anything with it.”</p>
+
+            <p>She smiled at me sympathetically. The devil, showing sympathy for the human that sat across from her at the bar. It was surreal and, for a few heavy moments, I truly thought I must be dead. There was no other way to explain what I was seeing, who I was speaking with. What I had just heard.</p>
+
+            <p>“What am I supposed to do?”</p>
+
+            <p>Lucy reached out to me. She placed a hand on my shoulder. Her hand was cold and warm at the same time, and I felt my blood boil where her fingers scraped my skin.</p>
+
+            <p>And I knew.</p>
+
+            <p>Sharing a story like this isn’t easy. Hell, it might be the hardest thing I’ve ever done. Good thing there’s no such thing as Hell, then, right?</p>
+
+            <p>The fact of the matter is simple. The world is a mess because we refuse to change anything. The devil herself walks among us and she desperately wants to make our lives better, but she won’t. She won’t, because we won’t. We have to prove our will to her before she is willing to do anything herself. We have to be good to each other, to help us all to be free.</p>
+
+            <p>Of course, Lucifer told me one last thing before she left that bar. One thing that will stick with me until this body is nothing but rot in the dirt.</p>
+
+            <p>“You can tell as many people as you want, but take a good look at me. I have told five other humans this night the same things I have told you, and this was their reaction. They have hurt me, burned me, thrown their food and drink at me. Humans are afraid of their free will and they find it so much easier to hurt than to own up for their own inadequacies. You will only be free when you stop seeing yourself in the same way my father sees himself.”</p>
+
+            <p>So that’s what I’ll leave you with. Lucifer won her wager that night and I let her walk out the door.</p>
+
+            <p>And I beg you to do the same. If the devil approaches you one night, listen to what she has to say, and listen to what I have been able to tell you of our meeting.</p>
+
+            <p>The devil is real and she doesn’t want to torture us.</p>
+
+            <p>No, we do that just fine on our own.</p>
+        </div>
+        <div data-role="footer" data-theme="a">
+            <h4>Pasta Bakes &copy; 2024</h4>
+        </div>
+    </div>
+
+    <div id="section4" data-role="page" data-theme="a">
+        <div data-role="header" data-theme="a" data-position="fixed">
+            <h3><a href="#page" data-icon="home" data-iconpos="Home" data-position="fixed">Home</a></h3>
+        </div>
+        <div data-role="main" class="ui-content" data-theme="a">
+          <h1>My tiny town just got put on lockdown</h1>
+          <h3><a href="https://www.reddit.com/r/nosleep/comments/g2ipew/my_tiny_town_just_got_put_on_lockdown_part_one/">Original Authors Link</a></h3>
+          <p>Day 3</p>
+
+            <p>My name is Trevin, and a few days ago the government put our little town on quarantine and locked out anyone coming in or going out. Now I don’t really like people anyway so at first the idea of being told to stay at home seems like a very welcome option to me. They said it was some new strain of the flu or some other worse version of a common disease. I’m not really all that sure because to be honest I wasn’t really paying attention when they told us, and I don’t ever watch the news.</p>
+
+            <p>I did, however, realize that I hadn’t heard any rumors or anything else involving the discovery or potential threat of some new disease. This makes this quarantine feel very odd and very sudden, now that I truly think about how this all came about.</p>
+
+            <p>What further increases how odd this seems is the fact that today I decided I wanted to grab an energy drink or two from the gas station on the edge of town. As I got in my truck and drove the four blocks to the gas station I noticed that I was literally the only vehicle on the road…in the whole town. Once I got to the gas station I saw military vehicles blocking off the roads out of town. Let me be a little more specific, there were two Humvees with roof mounted 50cal machine guns…but no troops, just the vehicles.</p>
+
+            <p>I park in a spot as close to the gas station door as I can, this was easy in a completely vacant parking lot. I get out and try to go inside, maybe I can ask the cashier if they know more about whats going on. This thought suddenly faded as I walked inside the building to complete silence and emptiness. Now I don’t mean it was some strange void that I walked into as I opened the main door, what I mean is that there was no music, no chattering, and absolutely no people anywhere.</p>
+
+            <p>Not really sure what to do, I finally decided to grab the drinks I came there for, left a five dollar bill on the counter, loudly announced to apparently nobody what I was doing, then left back out to my truck. Once I got back in my truck, set my drinks on the passenger seat, turned the engine over, I glanced back over to the military vehicles setting in their attempt at a road block, and that’s when I first noticed that just beyond the Humvees was a curious dense fog blocking out my view of anything past maybe 10 feet from the vehicles. So, from where I was in the parking lot I guessed there was maybe an eighth of a mile worth of visibility.</p>
+
+            <p>I decided to drive over to the road block, maybe I just couldn’t see the soldiers sitting in the vehicles, and I could ask them if they were able to give me any information about what was going on or maybe the severity of whatever disease they had told us was going on. I backed out of my spot and turned off toward the roadblock. As I got closer, I noticed that the fog was not moving back the closer I got to it. It remained in place almost like a wall. I pulled up, stopped, and put my truck in park. Sitting only a few feet from the Humvees I hesitated before getting out to closer inspect the situation.</p>
+
+            <p>I didn’t notice any soldiers asleep in reclined seats like I had expected to see as I got closer. Slowly I exited my truck and walked between the two military trucks and toward the fog that oddly remained in place like some sort of swirling cloud wall. As I got within about arms reach of the fog a few little details about it sparked my attention. First, was that it seemed to be emitting a sound, something like static or a low sizzle. Another note was that it looked like it had some strange sort of purple tint. Not really a tint but more of a glow, just a faint sort of bioluminescence. Lastly, I decided to reach out placing my left hand into the fog, as I expected, it felt no different than a cool mist enveloping my hand as it moved past the edge and into the fog.</p>
+
+            <p>What I didn’t expect was that it also had a strange sort of weight to it, almost like the mist felt heavy. One of the purple bioluminescent swirls floated over and across my hand, not feeling any different than the rest of the fog but visually I watched it happen and it caused me to quickly recoil my hand thinking “ok now I have a crazy story to tell my wife once I get back to the house.”</p>
+
+            <p>I guess that now is as good of a time as any to explain a little more about me and my situation as this event started. I live in a small, and I mean small, town. The total population of our town is maybe 800 people. To be honest I feel like they included pets in that count just to make it sound bigger. The size is maybe ten blocks by twelve blocks. Its one of those towns you can hold your breath and make it all the way through town as you drive through.</p>
+
+            <p>We have two gas stations next to each other on the edge of town, a video game arcade, a hardware store you can’t walk into because its owned by an old hoarder. So if you need anything you have to tell him what you need and let him search the building to find it and bring it back out to you to pay for it, cash only as you could expect. No grocery store or any other types of stores. Yet we did manage to end up with a McDonalds in town near the gas stations.</p>
+
+            <p>I live about a block away from our town circle, in a two-story house with my wife Grace, two dogs, and two young daughters. An infant we named Izzy, and a two-year-old we named Addie. Don’t worry about us with this quarantine business we should be good to go. We’ve got a freezer full of meat and lots of water and non-perishable foods stocked in the house. Now that you have an idea of how we are entering this whole ordeal ill get back to my story.</p>
+
+            <p>Still standing there a mere few feet away from the fog I looked back into our small little town and noticed that there was no fog at all any closer to the center of town than this. I jogged back to my truck and got in, backed away from the roadblock and decided to drive the ten-ish blocks to the other side of town. As I drove through town slowly, out of the corner of my eye I saw a shadow flash past as I drove past an alley. I stopped my truck suddenly and rolled the window down to peer down the alley trying to see what it may have been.</p>
+
+            <p>After about a minute and seeing no further movement I rolled my window back up and continued toward the other side of town. Still moving through town looking both ways down each intersecting street I remained the only vehicle moving in the whole town. Once I got to the far side of town I came to the same scene as I had before on the only other road in and out of town. Two Humvees, sideways in a form of roadblock, no soldiers in sight, and purplish grey fog just past the roadblock. It was then that I noticed that there was still no sound, almost complete silence save for the sound of my truck, my breathing, and the sound of my own heart beating nervously in my ears.</p>
+
+            <p>The lack of background noise was strange enough in the gas station earlier but as I got out of my truck at the second road block I noticed that there were no sounds of trucks or cars traveling on the nearby interstate, no birds, dogs, lawnmowers, crickets, nothing. The lack of ambient noise anywhere in town unsettled me enough to make the decision to remain in the vehicle for the remainder of my expedition around town in search of answers.</p>
+
+            <p>I decided to drive around the edge of town curious about the fog and as I drove my truck full circle around the town, I confirmed my fear. The wall of strange fog was surrounding our town and the same military roadblock at every road out of town. I drove back home, grabbed the drinks off the passenger seat, and went inside.</p>
+
+            <p>As I walked in the house my wife, whom was currently playing barbies with our toddler as our infant crawled around the room exploring different toys lying about, said “what took you so long?”</p>
+
+            <p>Just then realizing that all my exploring of the situation in the town had caused my short trip to the gas station for drinks had taken nearly an hour.</p>
+
+            <p>“Its weird out there,” I replied.</p>
+
+            <p>“Something is very much not normal in town,” I continued adding a look on my face to tell my wife that I had a story to tell her once we didn’t have little ears listening in.</p>
+
+            <p>Catching my hint, she assured our toddler she would be back to play barbies with her in a few minutes and followed me into the kitchen where I was able to tell her everything I saw was going on while I had been out.</p>
+
+            <p>She then tried to pull out her phone and make calls to her family. This act taught us a very interesting fact about our current situation. Oddly enough we had internet, but somehow limited, as if there was some sort of strict parental control over our entire network. YouTube, Plex, Spotify, and Google seemed to work just fine, but the phone, Facebook, text, Kik, any type of communication app did nothing more than endlessly load or wouldn’t even open at all. No form of news seemed to be able to load either. So, phones, tablets, and computers had been reduced to devices solely for entertainment.</p>
+
+            <p>Together we decided to do our best to stay in the house as much as we could until we understood more of what was really happening. This decision being made she went back to play with the children and the dogs began to trail me around the kitchen as I began to prepare us something for dinner.</p>
+
+            <p>That night after eating and getting the girls in bed for the night, my wife and I sat on the couch with some movie playing on the TV that neither of us were paying attention to while we talked about the things we had noticed when we glanced out the window during the day and wildly speculating as to what we thought was really going on. After a while and once the movie that we weren’t even paying attention to finally ended we decided to go to bed.</p>
+
+            <p>Day 4</p>
+
+            <p>I awoke to my two-year-old running in our bedroom screaming at 6:30 am.</p>
+
+            <p>“Daddy, daddy! I want cinnamon crunch!”</p>
+
+            <p>“Who needs an alarm set when you have little kids?” I thought to myself as I sat up.</p>
+
+            <p>“Apparently, it’s time to get up, huh? Ok, ok let’s go get you some cereal,” I said to her as I got out of bed and began to follow my daughter downstairs while she rambled on about what she wanted to do today.</p>
+
+            <p>“I wanna watch a movie”</p>
+
+            <p>“I want my tabbet”</p>
+
+            <p>“Come sit with me on the couch”</p>
+
+            <p>As we got to the top of the steps on our way down to the kitchen our littlest lets out a cry announcing that she was awake now too. I told my two-year-old that we would get to one thing at a time and that I’d meet her downstairs after I brought her little sister to my wife so she could nurse her. As I drop-off the youngest to my wife and head back out of the room to get breakfast ready for our other daughter I hear her yell to me as I reach the top of the steps again.</p>
+
+            <p>“Please make coffee! And strong!”</p>
+
+            <p>“I’m on it,” I reply as I walk down the steps. As I reach the bottom of the steps my jaw dropped as I felt fear rise in the back of my throat. I yell up to my wife to get downstairs and see this. Soon I hear her moving upstairs making her way with our daughter to the top of the steps and making her way down them. By the time she got to the bottom of the steps I had moved over to the windows on the far side of the room.</p>
+
+            <p>“What the fuck?!?” she exclaims as she hits the bottom of the steps.</p>
+
+            <p>Looking out the window, the fog that I saw yesterday had crept into the town. It swirled outside the panes of glass; the violet hints of color had become more of a pearlescence. Like looking into a puddle in the summer that has had bits of oil or chemicals spilled into it, shimmering rainbows of color as the light reflects off it. Our visibility out the windows had been reduced to a few yards past the road. I could just make out the front door of the house across the street.</p>
+
+            <p>“I told you something weird was going on,” I said to my wife. “I told you, it feels a little weird, kinda heavy, but I don’t think it’s dangerous.”</p>
+
+            <p>Beyond the swirls of the odd fog outside I saw nothing out of the ordinary. Again, today however I still didn’t see any cars driving down the roads and no movement at all really. So, I walked into the kitchen and got breakfast ready and coffee started as my wife remained looking out the window searching desperately to find any form of normalcy in the purple rainbow haze our house had been engulfed in as we slept last night.</p>
+
+            <p>As I gathered the various parts and pieces needed to prepare cereal for my daughter, both dogs wandered into the kitchen sleepily and sat staring at me next to the door clearly asking to be let outside to do their morning business. Cautiously, I hesitated to look out the window in the door unsure if the dogs would be ok out in the backyard in the fog.</p>
+
+            <p>“Ok, make it quick, shit’s getting crazy outside,” I say to Bodhi as I pull the door open and let them both run out to the backyard to relieve themselves.</p>
+
+            <p>Our two dogs are both 70 lbs. One boy, Bodhi, a pit bull-French mastiff mix, and one girl, Mae, who is some sort of Black-mouth Kerr mix. As the dogs run out the door, Bodhi stops at the top of the porch, steps cautious to go out into the fog but relents and quickly does his business and runs back to the door to be let back in. Mae, on the other hand, has no hesitation as usual and sprints out to the yard and takes her time then finally returns.</p>
+
+            <p>I hate to admit to using the dogs as guinea pigs to see if the fog was dangerous, but letting them outside was truly just that. A test to see if it was harmful, thankfully, it was not, and our dogs are fine. When I opened the door, I once again noticed that there were still no ambient sounds outside. No birds chirping and no bugs. I decided that even though the fog seemed to be harmless there was something very eerie going on. Something that made all the birds leave and everything remain quiet.</p>
+
+            <p>“Trevin! Come here quick!”</p>
+
+            <p>I rush into the room where my wife is standing still looking out the window.</p>
+
+            <p>“Look!” she says as she points across the street. I look just in time to see a small orange glow fade off into the fog.</p>
+
+            <p>“What was that?” I say as I step closer to the window next to her, trying to peer deeper into the fog to no avail.</p>
+
+            <p>“I don’t know, it looked like some small animal, a raccoon maybe? But it was on fire! Just running down the street!” she answered.</p>
+
+            <p>We both stood in awe, trying to look further into the fog to see it again or possibly catch a better glimpse of what it was. As we stood there peering into the purple mist, our two-year-old happily ate her cereal humming along to what sounded like a Moana song playing in her head. Then we heard it, the first sound I had heard coming from outside since yesterday. It was quiet at first coming from further away and heading toward our direction and getting louder.</p>
+
+            <p>“Do you hear that? What is it?” my wife whispers to me as we both lean toward the glass to hopefully hear better. As the sound grew closer it became more apparent that it was some excruciating animalistic screaming. Like the sound of a rabbit in pain mixed with the terrified screams of pain from a young girl. As the sound got louder and closer it was enough to make your skin crawl. I noticed that it was constant, like it was being made with one long breath from something with infinite lung capacity. Just as I was about to vocalize my observation of the sound my wife exclaims.</p>
+
+            <p>“Holy shit! Look!”</p>
+
+            <p>“Howy dit,” I hear Addie repeat behind us as my eyes focus on what my wife is talking about. Just coming into view as it ran down our street was that small raccoon-sized animal, still on fire. The animal was clearly not a raccoon but about that size, it had six legs and moved with an almost elegance. The head was somewhat large for its body and shaped like an upside-down triangle. Protruding from its face were fanged mandibles that looked like the mouth from the creature in those predator movies. It had a tail that looked almost lizard-like, scaly and thick. It had no fur but had tight, dark, almost black skin and was completely engulfed in what looked like a fireball.</p>
+
+            <p>The thing ran up into our yard toward the house, got halfway to the house and changed direction. The fire following it the entire time, yet the animal didn’t seem to even notice it. As it changed direction it stopped for a split second and looked up toward our window. Our eyes met and in that split second that our eyes were locked my brain exploded with visions and my chest felt weighed down as if I had been kicked in the chest by an MMA fighter. Horrific visions of blood and viscera, torture and mutilation. Terrible pictures flashed in my mind, so many and so quickly I could never describe each one, instantly causing my head to ache and nearly causing me to collapse to the ground. As quickly as it happened it broke eye contact and skittered off back down the street.</p>
+
+            <p>“What happened?” Grace said as she saw my stance shudder with the sudden psychological assault I had just endured.</p>
+
+            <p>“That wasn’t making the noise…” I said, ignoring the question my wife had just asked, not knowing how to even explain what I just experienced. To this, she realized I was right and turned back out the window just as another orange glow began to appear from the fog. This time it was what was making the guttural screams that pierced our ears and almost hurt my heart to listen to. As it came into focus it was a man.</p>
+
+            <p>Tall and extremely thin. No hair, very unusual facial features. It looked like the skin was melting off his body, which in a way made a little sense because he too was naked <p>and completely engulfed in flames. As he ran past our house, Grace and I stood in silence watching. The man, unlike the spider-raccoon, definitely seemed to notice the fireball he was surrounded by and the scream-like sound never stopped as he ran past our house. It didn’t stop for him to take a breath or change pitch, but it was definitely coming from him. As we watched, it became clear that he was either chasing or hunting the other spider creature that had just run past. He, however, didn’t run into our yard but continued straight down the street in the direction of the other animal. As he began to get far enough to fade from view into the fog, Grace broke our stunned silence.</p>
+
+            <p>“Um… you… uh… what just… how about we close the blinds for now?”</p>
+
+            <p>“Yup, good idea,” I agreed as we both began to run around the house closing all the blinds.</p>
+
+            <p>We spent most of that day leaving the blinds closed and pretending nothing was wrong, trying to keep the girls entertained. Only a few more times through the day did we hear the screaming or other unnatural noises coming from outside. And a couple times Addie questioned it but we were able to keep her distracted by playing Barbies with her or having dance parties in the living room. After the girls went to bed that night, we sat quietly by the window. Blinds open. Both staring out into the dark of the night. Watching. Waiting. Listening. After about an hour with nearly nothing said between us, I broke the silence.</p>
+
+            <p>“I’m almost afraid to go to bed. After how much changed as we slept last night, I’m not sure I want to know what will be different when we wake up tomorrow,” I admitted as I stared into the night. The purple haze swirling just on the other side of the glass.</p>
+
+            <p>“Well, we can make sure all the doors are locked and stay up all night looking out this window, but I’m not sure that it’s going to change whether or not things will change overnight,” Grace replied, taking her turn to be the voice of reason.</p>
+
+            <p>“Yeah, you’re right. Let’s go to bed,” I said, getting up to check the doors. As I approached the front door to check the lock, I heard another distant animalistic scream emerge from the fog, almost as if to remind me that this was far from over.</p>
+
+            <p>We moved from our main floor to the upstairs, checked on the girls, and lay down still both awake for the better part of another hour, laying in silence, just listening to anything coming from outside.</p>
+        </div>
+        <div data-role="footer" data-theme="a">
+            <h4>Pasta Bakes &copy; 2024</h4>
+        </div>
+    </div>
+
+    <div id="section5" data-role="page" data-theme="a">
+        <div data-role="header" data-theme="a" data-position="fixed">
+            <h3><a href="#page" data-icon="home" data-iconpos="Home" data-position="fixed">Home</a></h3>
+        </div>
+        <div data-role="main" class="ui-content" data-theme="a">
+           <h1>My Name is Lily Madwhip, and I See Things Before They Happen </h1>
+           <h3><a href="https://www.reddit.com/r/nosleep/comments/akffzz/my_name_is_lily_madwhip_and_i_see_things_before/">Original Authors Link</a></h3>
+           <p>My name is Lily Madwhip, and I see things before they happen.</p>
+
+            <p>“Don’t stare at me, assface.”</p>
+
+            <p>That’s my brother, Roger. He doesn’t see things before they happen. I know this because if he did, he would see what’s about to happen to him. Then again, maybe he does, but people like us can’t see things that are about to happen to ourselves. I don’t know, truthfully. All I know is that in about three minutes, Roger is going to die.</p>
+
+            <p>“You’re going to die,” I tell him.</p>
+
+            <p>“Did you just threaten me?” he snarls. Roger is six years older than me. He goes to highschool and has two best friends named Skeeter and Dustin. They like to wear shirts without sleeves that have the names of heavy metal bands on them. Sometimes they hang out in the garage and try to play music like those bands until my dad goes out and yells at them to stop. At his funeral, they’re going to wear jackets and ties and their hair is going to be combed for once. I’ll never see them after that, which is nice. I love Roger because he’s my brother, but when he’s gone things will be just a little bit nicer. Sorry, Roger.</p>
+
+            <p>“No,” I tell him truthfully, “I’m just trying to warn you. I love you, Roger.”</p>
+
+            <p>“Shut up, weirdo!” He punches me in the shoulder and I cry like I’m supposed to but it doesn’t really hurt. Mom’s head swivels around on her neck from the front of the car and gives us both that look that says she regrets having us. I know she doesn’t, but all parents think that from time to time. I wonder where I’d be right now if I’d never had kids?</p>
+
+            <p>No, I’m not a mind reader too, I just know these things.</p>
+
+            <p>“Will you two knock it off back there?” Mom asks. It’s not really a question though, it’s an order. Adults can give orders in the form of questions. If you’re a kid, and you try to do this, it doesn’t work. I once tried to order Roger to give me back my doll Paschar by asking him, and he laughed at me and twisted Paschar’s head off. Mom had to put it back on, but she’s never been one for toy repair, so it’s kind of crooked now. I told her I didn’t mind, that it gives him “personality”.</p>
+
+            <p>Mom and Dad think it’s weird that I named my doll Paschar. I don’t know why. Paschar was an angel, after all. People don’t think it’s weird if you name your doll Gabriel or Michael or Lailah, but give it the name Uriel or Gavreel or Paschar and everybody gives you funny looks.</p>
+
+            <p>I hug Paschar in my arms and look out the front of the car. There’s a sign that says, “REST AREA 1 MILE” and beneath it a smaller sign that says, “NEXT REST AREA 46 MILES”. At the speed my dad drives, that should take us about half an hour I think.</p>
+
+            <p>“Rest area coming up!” Dad says, “Does anybody need to go?”</p>
+
+            <p>We stopped hours back at a McDonalds and I had a cheeseburger with some fries and a small Sprite. I couldn’t finish the burger or the fries, but the Sprite made my tummy happy because sometimes I get a little carsick, so I drank the entire thing. Now I need to go, but this is where Roger dies, so I lie. “I don’t.” Thinking about having to go makes it worse. I cross my legs.</p>
+
+            <p>Roger notices. “Lily has to go! She’s squirming around back here! I don’t want her pissing on me!” He makes a grossed out face, and I can appreciate the genuine disgust of being peed on by someone else, but Roger I’m trying to save your life here.</p>
+
+            <p>Mom looks back again and I shake my head at her. “Lily, if you have to go--”</p>
+
+            <p>“I don’t.”</p>
+
+            <p>“She does! And I do too!” Roger declares.</p>
+
+            <p>I don't think Roger actually has to go.</p>
+
+            <p>Dad turns onto the ramp for the rest stop, ending the conversation. There’s two lanes: one for the big trucks and one for little cars. Our station wagon takes the second lane and wraps back around to go up a hill to the parking lot for the rest area. There’s some sort of big rock on a pedestal with a commemorative plaque at the base with lots of names of people who are dead. Other families are going in and coming out of the glass-wrapped building.</p>
+
+            <p>I wonder how far we are from the nearest hospital.</p>
+
+            <p>“Everybody out!” Dad declares.</p>
+
+            <p>“Lily, hurry,” Mom says as she unbuckles her seat belt and opens her door.</p>
+
+            <p>I look over at Roger one last time and try to smile. He looks back at me. For a moment, there’s the faintest glimmer of recognition in his eyes. I think maybe he’s going to shut the door and stay in the car. Then he sneers at me and the moment is lost. “Stop staring at me, assface!”</p>
+
+            <p>“Language, Roger.” Dad says in his tone that means he doesn’t actually care, but he has to act like he does so Mom won’t get mad.</p>
+
+            <p>We all get out. Mom holds my hand as we cross the parking lot, even though I’m not a baby. I keep looking back at Roger and Dad and waiting for it to happen. Roger’s going to die, I know it-- I just don’t know how. Maybe that big rock is going to come loose from its base and fall right on top of Roger like a boot on an ant. I’ve stepped on ants before. I always say sorry afterward, but it’s kinda pointless by then. I wonder if his insides will squish out like they do on ants.</p>
+
+            <p>The rock does not squish Roger.</p>
+
+            <p>My mom takes me into the women’s restroom where we do our business. The toilets are those ones that flush automatically. They always scare me, like I think the one I'm on won’t detect that I’m on it anymore and flush and I’ll get sucked in. I go, but the whole time I’m waiting to hear the shouts and cries from outside. Maybe Roger gets sucked into the automatic toilet. My mom has a word for something like that-- apropos.</p>
+
+            <p>Roger does not get sucked into the automatic toilets.</p>
+
+            <p>We meet out in the lobby area where they have an information kiosk and little cubby holes filled with sightseeing maps and brochures for hotels and water parks. I want to look at one about an outdoor animal safari zoo, but Dad is in a hurry to get back on the road, so Mom drags me back out to the parking lot.</p>
+
+            <p>We pile into the station wagon with empty bladders. I’m feeling a bit confused because Roger is still alive and it’s been at least ten minutes since I knew he was going to die. I don’t say anything on the matter because Mom and Dad don’t like it when I talk about my “premonitions” as they call them. Also, I’d rather not jinx it if I’m actually wrong for once. Roger’s kind of mean, but he’s my brother and I love him. I hug Paschar and stare out the window as we pull out of our parking space.</p>
+
+            <p>Suddenly, Paschar is snatched from my arms. I turn, startled, to see Roger holding the doll out his window, waving it in his hand. He grins at me. “Hey, assface, wanna see if your dolly can fly?”</p>
+
+            <p>I realize this is the moment, I can’t help but say something. “This is when you die.” I tell him solemnly.</p>
+
+            <p>Roger’s smirk is replaced by one of anger. He lets go of Paschar, who disappears beneath the wheels of our car. In my distress, I cry out, lurching against my seat belt as if I can whisk out the window and snatch Paschar up before he’s lost forever. Mom turns and starts asking loudly what just happened. Dad turns to yell at us to stop it. Lily, stop screaming. Roger, what did you do.</p>
+
+            <p>Roger, what did you do.</p>
+
+            <p>My father is looking in the rear view mirror at what he considers his two biggest mistakes. My mother is passing her glare back and forth between me and Roger. Roger is looking at Mom and Dad and trying to put on an innocent expression as he lies and tells them that I started it. Only one of us is looking at the lane for the big trucks that we’re currently merging with at Dad’s typical high rate of speed, and that’s me. What do I see out Roger's window but a giant truck with lots of big tires and a large trailer on back barreling down at us with a driver in the cab who looks as shocked and confused as I am. I’m not screaming for Paschar anymore, I’m screaming for Dad to brake or steer or anything but he can't tell the difference between one type of screaming and the next and anyway it’s too late.</p>
+
+            <p>Do you know what a T-bone is? I always thought it was a type of steak. My Uncle George ordered a T-bone once at a restaurant and he got this mammoth piece of meat with the bone still in it. That’s why they call it a T-bone, because the bone is there and it looks like the letter T.</p>
+
+            <p>Apparently T-bone is also a type of collision where one vehicle strikes another in the side. Because the two vehicles make a T shape, just like the bone in the steak my uncle ordered. That’s what the big truck does to us, it T-bones us right before the on-ramp to the interstate.</p>
+
+            <p>The nearest hospital is twenty three minutes away. I would never have guessed that number. They take Roger and my dad there in an ambulance. Dad has a dislocated shoulder and a lot of cuts and bruising. Roger is airlifted to Boston Memorial. He gets to fly in a helicopter, although he isn’t conscious for it, so he kinda misses out. He dies from internal injuries before he gets there. Mom and I are treated for lots of little cuts from glass and stuff. The driver of the truck is fine but shook up by the whole thing. I hope he doesn’t blame himself for Roger’s death. That was nobody’s fault but Roger.</p>
+
+            <p>One of the emergency medical people who treats us on the scene finds Paschar and gives him back to me. He always finds his way back to me. The EMT asks me what my doll's name is and gives me a funny look when I tell him. I don’t tell him that he’s about to get a call for an old lady who suffered a stroke in some place called Middlebury. That kind of trivial information is lost on most people. Kind of like I know my mom and dad are going to cry and hug each other and worry about Roger until they find out he’s dead. After that, Dad will get more distant because he secretly blames me (it’s not a secret, Dad, I know) and Mom will hug me a little tighter each night at bedtime. I see it, but they don't need to know I do.</p>
+
+            <p>I hope Roger is in a better place, but Paschar tells me he’s not. Paschar is always right.</p>
+
+        </div>
+        <div data-role="footer" data-theme="a">
+            <h4>Pasta Bakes &copy; 2024</h4>
+        </div>
+    </div>
+
+    <div id="section6" data-role="page" data-theme="a">
+        <div data-role="header" data-theme="a" data-position="fixed">
+            <h3><a href="#page" data-icon="home" data-iconpos="Home" data-position="fixed">Home</a></h3>
+        </div>
+        <div data-role="main" class="ui-content" data-theme="a">
+            <h1>The Edge of The Water</h1>
+            <h3><a href="https://www.reddit.com/r/nosleep/comments/s7y4l/by_the_edge_of_the_water/">Original Authors Link</a></h3>
+            <p>Never loved my step-brother. Truthfully, I couldn’t even say I liked him. But by no means did he deserve his fate, whatever it may have been. I'm putting my memories to paper now, as best as I can recall them, before the pills and therapy snatch them away forever.</p>
+
+            <p>We became family when I was only 6 years of age. My mother died when I was barely out of infancy, and my father, in loneliness and grief, turned towards the first woman who showed an inkling of interest, or at least, tolerance. After a long and tumultuous romance, they tied their vows and almost immediately began to make each other miserable, a theme which resonated between my new brother and me.</p>
+
+            <p>Daniel wasn't a literal monster, but in the eyes of a younger sibling, he may well could have been. 2 years my senior, I grew up dreading the inevitability of a daily teasing or beating, knowing the hopelessness that he would try to make my every day miserable.</p>
+
+            <p>One instance sticks out in particular now, perhaps resurfaced by the irony of the recent events that have caused my incarceration. We grew up in a small country town, and our backyard consisted of a massive forest which stretched as far as a child could wander. I spent many hours in the wood, and where most children might feel lost or scared in the wilds, I felt safe from the conflicts that ravaged my home, away from Daniel and the evil woman he called mother. Not too far into the woods, just up a hill and through a thick bramble, was a pond of decent size, old and stagnant and covered in a green film of algae. While most of the forest was a comfort, the pond always bothered me. I hated everything about it, from its sickly green appearance to the faintly putrid stench that the still water produced. But, as it was wide enough to cover a large stretch of the forest, it was necessary to pass by it during my hikes.</p>
+
+            <p>One day, while I was unaware, my step-brother decided to follow me. He stalked me through the forest as I explored, just out of sight, like a predator on the hunt. As I paused by the pond to gather stones, Daniel silently closed the gap between us, creeping between the trees as he approached.</p>
+
+            <p>I never heard him coming. The next thing I knew, I was pushed through the air, and tumbled down into the water, crashing through the layer of algae and into the dark cold of the pond.</p>
+
+            <p>I panicked, struggling for air; desperate to escape the murky water that I was sure would swallow me up and leave nothing to be found. As I fought to breech the surface, I found I was being held down, forced to hold the last bit of air that burned to escape my lungs. Every terrible fear I knew felt like a reality, waiting for me at the bottom of the pond.</p>
+
+            <p>Finally, when I was all but sure that I would die, I found myself released. I broke the surface with a gasp, every muscle in my body screaming for air and the comfort of the shore. When I reached safety and had come to my senses, I became aware of an uproarious laughter behind me. I turned and saw what I should have expected: my step-brother, cackling like a madman at his brilliant ambush.</p>
+
+            <p>Of course, when I arrived home, his mother would hear nothing of my side of the story. Daniel told her that I fell in, and his best clothes were ruined trying to save me from drowning. The thrashing she gave me for my 'lies' was one of the worst I had ever received, and I was forbidden from ever venturing into the forest again.</p>
+
+            <p>As I said – I never loved my step-brother. But, there was one time, and perhaps only one time, that I felt close to him. It only took the death of his mother.</p>
+
+            <p>It happened when we were 17 and 19, respectively. While she was walking home from the liquor store late one night, a drunk driver swerved just a few inches off the road and struck her in the side. As she fell, her head landed on a guardrail, killing her instantly.</p>
+
+            <p>Our family is just full of little ironies.</p>
+
+            <p>In his grief, Daniel turned to God. I myself was a devout agnostic, finding no fault in faith, but many in religion. At the time, I supported his newfound devotion, believing it would be a positive influence in his life. After all, I couldn't think of any religion that would condone his prior behavior. At the very least, perhaps I would earn some well-deserved apologies for a childhood of mistreatment.</p>
+
+            <p>He found a church near home, one that I had never heard of – The Church of The Shepherd and Prior Day Saints – and spent most of his spare time engaged in study. As he had recently moved away into a nearby apartment complex, I rarely saw him anymore, and I was happy to no longer suffer his presence. I focused on my schoolwork and looking after my father, who had once again fallen into depression and drink after losing his second wife. My step-brother came by every few weeks to see how we were doing, and I quickly noticed a great improvement in his character. As I had hoped, he expressed deep remorse for his childish behavior, and often sought to make amends. On occasion, he would bring us small gifts or take us out to dinner, little tokens of gratitude for putting up with him for so long.</p>
+
+            <p>However, Daniel treated any information about his church like a closely-guarded secret. When pressed for details, he would casually deflect my questions, often changing the topic as quickly and politely possible. I learned almost nothing about his congregation, and could barely ascertain the specific branch of faith they followed. In passing, he would sometimes make references to Stars or Shepherds, which I assumed must have been a reference to the story of the Nativity. Another time, I overheard him on his phone talking to who I assumed must be his pastor, referring to the “King of Kings”, another metaphor I attributed to Christianity. Still, my brother was a private man, and I assumed, at first, that his reluctance to talk about his church stemmed from a desire to not impose his faith upon us, a position that I, at the time, was happy for.</p>
+
+            <p>Then, almost 6 months to the day of his mother's death, he told us that he planned to be Re-Baptized.</p>
+
+            <p>Of course, my father and I approved. He wanted us present at the ceremony, which would be held the following Sunday at a lake not far from home. I found myself feeling anxious as the date approached, as I was not accustomed to the ritual and pageantry of religion. The idea that dunking a man underwater could absolve him of his sins seemed like a quaint and ridiculous notion to me, but I wanted to appear supportive. After all, anything that would help my step-brother become a better man had to be something worthwhile.</p>
+
+            <p>The day came, and my father and I arrived dressed in our best clothes, which given our finances, weren't much to speak of. My father was so proud – he managed to stay sober for the ceremony, which was a small miracle unto itself. There were fewer parishioners present than I thought there would be, only about a dozen in all, not including the pastor and my step-brother.</p>
+
+            <p>The pastor was an older man, I estimated somewhere in his late 40s from his balding head. He was sporting a robe that was all black, save for a small crimson emblem emblazoned near his right breast that, from a distance, appeared to be a cross, wreathed in flames. He was pale, almost sickly, and wore spectacles that looked like they were designed in some earlier century. Yet, what stands out in my mind now, above all else, was his smile, a grin that stretched from ear to ear, like you'd imagine a shark would wear before feeding.</p>
+
+            <p>Daniel approached us out of the crowd, looking as pleased as I'd ever seen him. He moved in for a hug, which I modestly returned.</p>
+
+            <p>“I'm so happy you both could make it!” he exclaimed, making no attempt to hide his joy. “This is a big day for me, a huge day. Today everything turns around, I swear it,” he paused, and then: “Brother”.</p>
+
+            <p>The words took me back a bit, and for a moment, I was left speechless. In all the years I had known him, we had never been willing to consider each as other true siblings, and this was the first time I had heard him call me as such. “I... I'm happy to be here, Dan.” I stumbled over my words, still not ready to extend the same courtesy. Though in time, I thought... Maybe one day, soon, I could.</p>
+
+            <p>“I'm terribly sorry to interrupt,” the pastor exclaimed from the lake's edge, “But we do have appointments to keep, Daniel.”</p>
+
+            <p>“Excuse me, Father,” my dad said, a little shocked, as was I, by the pastor's rudeness. “We just got here, and we'd like a few words with-”</p>
+
+            <p>“No, dad, it's alright,” Daniel said, cutting him off mid-sentence. “There are... rules we have to follow. It's okay; we'll be done in just a minute.”</p>
+
+            <p>He turned from us and returned to the group. Noticing them now for the first time, I saw that none of them were wearing clothes that one would consider appropriate for such a special occasion. In fact, all of them were wearing the same outfit, a bland black-and-white wool garment that would have looked more at home in an Amish community. I began to wonder if my brother had joined some kind of a cult, but followed them anyway, down to the water's edge.</p>
+
+            <p>As my step-brother began to wade into the lake, hand-in-hand with his pastor, he paused and looked back towards my father and I with a look that I can only describe as concern, or perhaps even remorse, and said three words that will haunt me till my grave:</p>
+
+            <p>“Don't be afraid.”</p>
+
+            <p>And, before I could ask him what he meant, he turned back and walked out into the water. As he moved deeper, the crowd around us, without cue, began to sing a strange hymn that I had never heard before, ominous, but at the same time, uplifting. The inflection in their tone was closer to a chant than a melody.</p>
+
+            <p>It was around the time that I realized they were singing in perfect Latin that I knew something was terribly wrong. I dare not even attempt to transcribe it here.</p>
+
+            <p>Disregarding my step-brother's warning, I felt an intense desire to flee, to run into the water and rescue Daniel from what I was sure would be a horrible mistake, to escape into the woods and leave this surreal scene as many miles behind us as possible. But, even as this instinct grew, my feet felt rooted to the spot, my eyes transfixed on the ritual, unable to look away.</p>
+
+            <p>While the pastor was now in the lake past his waist, Daniel was slightly taller, and crouched down into the water to stand with his head just below the man's shoulders. He looked up to the pastor, his face awash in awe, as the man raised his hand above my step-brother's head and began to speak.</p>
+
+            <p>“We are here today to cleanse our brother Daniel of his sins,” he started. “To wash his spirit clean in this holy lake, and present him to our Lord as a man of Faith renewed, his soul reborn, his devotion absolute.”</p>
+
+            <p>He closed his eyes then, and with a look of utmost concentration, uttered a chant in another tongue, one that I still haven't been able to place to a region or time in known history. Even without knowing their meaning, I could sense a power in those words, one that no other religion could claim authority over. It lasted all of thirty seconds, but when he finished speaking, I felt like I had been trapped in them for days.</p>
+
+            <p>And then, with a swiftness I wouldn't have expected from a man of his advanced age, he lowered his hand to the scruff of my step-brother's neck and, with his other arm, submerged my brother into the lake.</p>
+
+            <p>In preparation for this day, I had watched other baptisms on the internet, so I would know what to expect. I knew that my brother shouldn't have been under the surface for more than a half-second, a whole if the pastor wasn't quite as quick as the younger ministers. When, at six seconds, Daniel was still being held under, my Father began to yell.</p>
+
+            <p>I honestly couldn't tell you what he screamed at the pastor; the next minute of my memory is still terribly muddled by what transpired. When I try to remember, there are small gaps, little details that I've forgotten, as if my mind is still trying to come to terms with what surely must have been impossible. What I do remember is terrible enough, and I hope that these abstractions are merely my psyche trying to cope with the reality. But, this is what I recall.</p>
+
+            <p>As my father stormed off into the lake, the choir of strangers around us ceased their singing and, aside from the sound of my father's ranting and splashing, it became unnaturally quiet, and the air became as still as a crypt. I remember, then, my father ceasing his advance, stopping mid-sentence as he became aware, as I was, that there was something utterly dark and unholy transpiring before us.</p>
+
+            <p>It was then that the pastor looked up from where he held my brother (who had now been underwater for a full 20 seconds), and slowly shifted his gaze onto me. He smiled, still, but that vaguely off-putting grin had transformed, twisted itself into an expression of simple, unmistakable malice. His eyes were black as pitch.</p>
+
+            <p>Daniel, who by now was surely drowning, began to thrash in the water, his death throes kicking up waves that disrupted the perfect silence that had descended on the lake. My brother was a strong man, young and healthy, and yet this old priest held him under the surface like he was a child, his grip unrelenting. He was dying before me, and yet, my horror still held me in place, unable to move.</p>
+
+            <p>The struggle did not end, as far as I could tell, so much as it was interrupted. Originating from the spot where my brother was fighting for his life, I noticed a dark stain spreading slowly across the surface, a jet-black substance that seemed to have the consistency of ink or oil, branching into a tendril-like form that seemingly moved with purpose, defiling the water as it crept ever closer to the shore.</p>
+
+            <p>Here is an empty spot in my memory, a moment I'm sure I don't truly wish to remember. Where it resumes, my father is gone.</p>
+
+            <p>The next moment I can recall, I'm standing alone on the shore. The parish has disappeared, presumably taken wherever my father has vanished to, or perhaps dispersed into the forest, having found the ritual satisfactory. In the water, still, the pastor stands, still holding down my brother, whose last desperate struggles are dying down to a few futile thrashes, barely causing a ripple over the surface. Then, with a last few bubbles of escaping air, I knew that he was gone.</p>
+
+            <p>The pastor was still staring at me, his eyes the same shade as the stain that consumed the lake, his gaze never leaving mine, his smile never faltering. He wore a look of grim satisfaction, a knowing that his godless act had come to completion. And, his eyes never leaving mine, he began to slowly descend into the depths, as if the ground beneath had opened up beneath and swallowed him, accepting him into the dark. It was only then, alone by the lakeside, that I found I could move again. I promptly fell to my knees, and I wept.</p>
+
+            <p>The police never found my brother, my father, or any proof of the church's existence. They even had the audacity to accuse me of their murder, but I was released on lack of evidence. After all, there wouldn’t be much of a case if they couldn’t find any bodies to pin me to. Begrudgingly, they sent me to the care of a local psychiatric hospital. While the staff here has treated me well, I hold a bitter resentment towards them. No one here believes my story; they call it 'the fevered delusions of a disconcerted mind'. They try to drown my memory in pills and hunt for hidden meanings, but they'll find none. I am certain, as terrible and impossible as it may be, that what I saw, what I witnessed, is beyond the grasp of a sane mind. I know it to be true.</p>
+
+            <p>And, when I lie in my bed at night, unable to sleep, I comfort myself by thinking that my brother knew what he was volunteering for. I tell myself, his faith had revealed to him that there exist gods older than man, than religion, perhaps older than time itself. Gods that lie just beyond our understanding, waiting for their chance to reign again. He knew that they were coming, and chose to willingly give himself up to them, to usher their return to our world. And I hear, as if he were standing beside me, his final message:</p>
+
+            <p>“Don't be afraid.”</p>
+        </div>
+        <div data-role="footer" data-theme="a">
+            <h4>Pasta Bakes &copy; 2024</h4>
+        </div>
+    </div>
+
+    <div id="section7" data-role="page" data-theme="a">
+        <div data-role="header" data-theme="a" data-position="fixed">
+            <h3><a href="#page" data-icon="home" data-iconpos="Home" data-position="fixed">Home</a></h3>
+        </div>
+        <div data-role="main" class="ui-content" data-theme="a">
+            <h1>The Cave</h1>
+            <h3><a href="https://creepypasta.fandom.com/wiki/The_Cave"></a></h3>
+            <p>There were originally nine of us scheduled for the spelunking expedition, but Murphy’s Law dictated that two of the group had to pull out due to various issues. It was a disappointment having fewer members to share in the experience, but then again, there were benefits – less logistical problems, more space and so on. I, personally, wasn’t that affected by it; while most of us were close friends, I hadn’t known those two well.</p>
+
+            <p>Our rendezvous was the cave entrance, at the crack of dawn. I was the first one there, as usual; those who knew me often remarked at my attention to punctuality. Slowly, the rest of the group arrived, parking their cars and unloading the equipment that we had organised between us. As the expedition leader, I had the emergency provisions on me – first aid kit, flare gun, GPS locator. It seemed quite odd that a flare gun would be taken into an underground location, but I’d rather have it and not need it than need it and not have it.</p>
+
+            <p>We assembled at the cave entrance. There was Jason, Alex, Karen, Samantha, Vincent, Ashley and, of course, myself. Alex and I were experienced spelunkers, while the rest had varying skill levels: moderate (Karen, Vincent and Samantha), poor (Jason) and a first-timer (Ashley). Normally it was against my instinct to take a first-timer into an unexplored cave and in such a large group, but he had promised to obey every command I gave him and had agreed to carry the most cumbersome equipment on the safe parts of the trek.</p>
+
+            <p>The cave loomed in front of us. It was typically dark and rather foreboding. Not for the first time, I wondered why it was, according to every available record of local geological sites, unexplored. Perhaps it was the isolated location, or the fact that until recently, there had been no way for vehicles to access it through the surrounding forest. “Are you sure it’s alright?” Ashley nervously asked, shifting from foot to foot. His earlier bravado had deserted him. “Yes. You can’t change your mind once we’re in, so decide now,” I said flatly, turning around without waiting for an answer. He’d make his own mind up without any further input from me.</p>
+
+            <p>The rest of the group followed me. After a few moments of apparent indecision, Ashley hurried in after the rest of us. Soon, the darkness swallowed us whole.</p>
+
+            <p>Inside, the cave was quite larger than it appeared. It proceeded inwards for about two hundred metres and then sloped down quite quickly. As per usual, I ordered the group members to “buddy up,” a system in which the group divided into pairs and three’s and were responsible for keeping together. Ashley and I were partners, given that I was the most experienced and he was the least. It wasn’t as fun spelunking when you had to care for somebody else, but it was a necessary evil. Besides, he was a quick learner.</p>
+
+            <p>Soon the sunlight from the cave mouth faded. “Flares out, everybody,” I ordered. One by one, the expedition members cracked the flares. As per local guidelines, each member carried two packs of thirty handheld flares. It may have been excessive, but the flares weren’t very strong and only provided enough light for the immediate area around the user. I took a glowstick from my pack and wedged it into the rock beside me. Only I carried these and they were quite stronger than the flares, able to last up to twelve hours with diminishing light after eight. I would use them to mark our trail back up.</p>
+
+            <p>Slowly we continued down. The handheld flares lasted for fifteen minutes on average and soon we reached an edge. I ordered the group to stop five feet from the precipice, where the ground leveled out. As you may have noticed, I am a stickler for safety measures, but not without good reason. I didn’t want a death on my hands. “Ashley, crack a flare and throw it down,” I said, watching to see how he did it. Ashley withdrew a flare from his pack and lit it. Then, without moving, he tossed it forward, down the hole. I nodded in approval – he hadn’t moved forward from the five metre guideline.</p>
+
+            <p>I crept forward to the precipice and looked into the abyss.</p>
+
+            <p>Then I saw it.</p>
+
+            <p>Descending into the darkness, barely half a metre from the cliff edge, was what appeared to be a staircase.</p>
+        </div>
+        <div data-role="footer" data-theme="a">
+            <h4>Pasta Bakes &copy; 2024</h4>
+        </div>
+    </div>
+
+    <div id="section8" data-role="page" data-theme="a">
+        <div data-role="header" data-theme="a" data-position="fixed">
+            <h3><a href="#page" data-icon="home" data-iconpos="Home" data-position="fixed">Home</a></h3>
+        </div>
+        <div data-role="main" class="ui-content" data-theme="a">
+            <h1>I Followed an Abandoned Path on the Appalachian Trail</h1>
+            <h3><a href="https://creepypasta.fandom.com/wiki/I_Followed_an_Abandoned_Path_on_the_Appalachian_Trail">Original Authors Link</a></h3>
+            <p>The Appalachian Mountains stretched out before me, a magnificent tapestry of rolling hills, dense forests, and jagged peaks. This ancient range, stretching all the way from Georgia to Maine, holds some of the most stunning landscapes in North America. The morning sun cast a golden hue over the Blue Ridge Mountains to the east, their soft contours bathed in a warm, amber light. In contrast, the Great Smoky Mountains to the west remained shrouded in their ethereal mist, their valleys veiled in a silvery fog that clung stubbornly to the trees, giving the landscape an otherworldly quality.</p>
+
+            <p>The Appalachian Trail, winding like a serpentine ribbon through this vast wilderness, was both a challenge and a sanctuary for those like me who sought solace in nature's embrace. This 2,200-mile footpath, the longest hiking-only trail in the world, offers a journey through diverse ecosystems, from the lush deciduous forests of the South to the rocky, alpine peaks of New England. Each section of the trail has its unique charm and challenges, making it a true pilgrimage for hiking enthusiasts.</p>
+
+            <p>In the early morning light, the trail revealed its treasures: wildflowers blooming in a riot of colors, their petals glistening with dew; towering trees, their leaves whispering secrets in the gentle breeze; and crystal-clear streams, their waters singing a soothing lullaby as they danced over smooth stones. The air was filled with the fresh scent of pine and earth, invigorating and pure, a reminder of the unspoiled beauty of these mountains.</p>
+
+            <p>Along the way, the trail offered breathtaking vistas from countless overlooks. Standing on the edge of a rocky outcrop, I could see the land stretching out in all directions, an endless sea of green punctuated by distant peaks and ridges. The sense of scale was humbling, each panoramic view a testimony to the grandeur of the natural world.</p>
+
+            <p>The Appalachian Trail also meandered through quaint, historic towns that seemed frozen in time, where friendly locals welcomed weary hikers with warm hospitality and tales of the trail. Shelters and campsites dotted the path, providing a place for rest and camaraderie among fellow adventurers. These spots were often alive with the sounds of laughter and shared stories, creating a sense of community among those who had undertaken the journey.</p>
+
+            <p>Wildlife thrived in this protected corridor. It was not uncommon to spot white-tailed deer grazing in meadows, black bears foraging in berry bushes, or hawks soaring high above, their keen eyes scanning the ground for prey. The chirping of songbirds provided a constant soundtrack, their melodies weaving through the rustling leaves and babbling brooks.</p>
+
+            <p>Each step on the Appalachian Trail brought a new discovery, a deeper connection to the land and its timeless rhythms. For experienced hikers like me, this trail was more than just a path through the mountains; it was a journey into the heart of the wilderness, a place where one could find both challenge and peace, adventure and reflection. Here, amid the ancient peaks and verdant valleys, the soul found its true sanctuary.</p>
+
+            <p>I stood at the trailhead, inhaling the crisp, pine-scented air, my heart thrumming with anticipation. As an experienced hiker, I had traversed many of the world’s most renowned trails, but there was something uniquely captivating about the Appalachians. Honestly, their rugged beauty and storied history called to me in a way few places could. Today, I was setting out on a path less traveled: a forgotten spur of the main trail, rumored to be abandoned and wild. It was precisely the kind of adventure I craved.</p>
+
+            <p>With my backpack securely fastened and my hiking boots laced tight, I felt a surge of confidence. Years of preparation and countless miles of hiking had honed my skills and instincts. I was ready for whatever lay ahead, eager to lose myself in the untouched splendor of these ancient mountains. The trail I had chosen was known to be challenging, but that only fueled my determination. I sought the thrill of the unknown, the satisfaction of conquering the untamed.</p>
+
+            <p>As I ventured deeper into the forest, the sounds of civilization faded away, replaced by the symphony of nature. Leaves rustled gently in the breeze, and birdsong echoed through the trees. Yet, there was also an undercurrent of something else: an almost imperceptible whisper that seemed to drift on the wind. The hairs on the back of my neck prickled as I paused to listen. Was it just the wind, or something more?</p>
+
+            <p>The path grew narrower, the trees more gnarled and twisted. Shadows danced in the corners of my vision, and I couldn't shake the feeling of being watched. A rustling in the underbrush made me turn sharply, but there was nothing there. It was just my imagination, I told myself, fueled by the eerie silence that had settled over the forest. Still, the sense of unease lingered, a silent companion on my journey.</p>
+
+            <p>I pressed on, determined to uncover the secrets of this forgotten trail. The mountains loomed larger, their majestic peaks now shrouded in an ominous mist. The beauty of the Appalachian wilderness was undeniable, but beneath its tranquil surface, something ancient and unknowable seemed to stir. With each step, I felt as though I was not just walking a trail, but crossing a threshold into a realm where the past and present intertwined, and where every shadow held a story waiting to be told.</p>
+
+            <p>Little did I know, my adventure was about to take a dark and twisted turn, leading me into the heart of an ancient mystery that would challenge everything I thought I knew about the natural world… and myself.</p>
+
+            <p>****</p>
+
+            <p>As the morning sun climbed higher, I found myself deep within the Appalachian wilderness, far removed from the well-trodden paths of the main trail. The forest had grown denser, the air cooler, and the shadows longer. It was then that I stumbled upon something unexpected—a sign, old and weathered, almost obscured by vines and moss.</p>
+
+            <p>Curiosity piqued, I pushed aside the foliage to get a better look. The sign was barely legible, its paint faded and peeling, but I could just make out the words: “Old Lonesome Trail.” It wasn’t marked on any of my maps or guides, and I couldn’t recall reading about it in any of my extensive research. Beneath the trail's name, a crude warning was scrawled: “Abandoned. Enter at your own risk.”</p>
+
+            <p>I felt a chill that had nothing to do with the temperature. Stories of strange occurrences and unexplained disappearances in these parts were common enough to be folklore. But here, faced with tangible evidence of such tales, I hesitated.</p>
+
+            <p>The trail itself was barely discernible, overgrown with thick underbrush and framed by trees whose branches seemed to reach out like skeletal fingers. Despite the unease gnawing at the back of my mind, a stronger emotion surged forth—curiosity. The thrill of uncovering something hidden, something perhaps long forgotten, was too enticing to resist. After all, wasn’t this the adventure I sought?</p>
+
+            <p>I glanced around, half expecting someone or something to appear and dissuade me, but the forest remained still. I took a deep breath, steeling myself against the unknown. My fingers tightened around the straps of my backpack, and I made the decision.</p>
+
+            <p>Step by step, I ventured off the familiar trail and onto the Old Lonesome. The transition was almost physical, as if I had crossed an invisible boundary into another world. The air grew heavier, the forest quieter, and the sense of being watched intensified. Every sound seemed amplified—the crunch of leaves underfoot, the occasional snap of a twig, my own breathing.</p>
+
+            <p>Yet, the further I went, the more determined I became. After all, this was why I hiked—to push boundaries, to explore the unexplored. The unease was just another obstacle to overcome, another challenge to face. With each step deeper into the forest, I told myself that the stories were just that—stories. The rational part of my mind insisted there was nothing here but trees and wildlife.</p>
+
+            <p>But as I walked, I couldn’t shake the feeling that I was being drawn in, led by some unseen force toward whatever lay at the end of this forgotten path. And though my heart beat faster with every step, I pressed on, driven by the irresistible lure of the unknown.</p>
+
+        </div>
+        <div data-role="footer" data-theme="a">
+            <h4>Pasta Bakes &copy; 2024</h4>
+        </div>
+    </div>
+
+    <div id="section9" data-role="page" data-theme="a">
+        <div data-role="header" data-theme="a" data-position="fixed">
+            <h3><a href="#page" data-icon="home" data-iconpos="Home" data-position="fixed">Home</a></h3>
+        </div>
+        <div data-role="main" class="ui-content" data-theme="a">
+            <h1>The Company I Work for Has a Wonderful Christmas Tradition</h1>
+            <h3><a href="https://creepypasta.fandom.com/wiki/The_Company_I_Work_for_Has_a_Wonderful_Christmas_Tradition">Original Authors Link</a></h3>
+            <p>At my company’s annual Christmas party there’s always a table full of presents. One of the presents is extra special – we just don’t know which one. At this year’s party there were about three hundred employees gathered in the event space on the first floor, far below the offices and boardrooms on the upper floors where the company typically does business.</p>
+
+            <p>We’d all been led inside and instructed to pick one of the nicely wrapped gifts off the table. This was no different from the year before, or any of the years before that. I selected one at random – there was no point in trying to figure out which box held which gift, so I just grabbed something from the middle of the table. Last year I unwrapped my gift to find a voucher for an all-expenses paid ski vacation to Colorado. My wife, kids, and I had a great time. Another such gift would be greatly appreciated.</p>
+
+            <p>Our CEO, Mr. Jackson, was abnormally cheerful, but I suppose that was just the Christmas brandy kicking in. As the happy holiday banter flittered across the room, he stood on a platform and held up his arms to silence the crowd, and then waited for the excited chatter to recede. It was typical for him to place a high priority on brevity, and today was no different. “Well we’ve had yet another very successful year!” he said as drunken applause and enthusiastic hoots and hollers erupted from the crowd. He paused a moment to let everyone quiet down, though the smile on his face showed that he was enjoying the festive atmosphere. “Sales are up 125% over last year,” he continued. “Complaints are down to historically low levels. It’s safe to say that this year we’ve been firing on all cylinders! And Newsweek even named us among the top fifty most ethical companies in the United States!” We all applauded loudly at that.</p>
+
+            <p>Mr. Jackson took a moment to soak in all the adulation, and then continued as he looked out to the crowd, “And while we owe most of our success to you, the employee, let’s not forget the good luck and fortune that’s granted upon us each year by our benefactor.” The clapping continued. I looked around the room. The long-term employees seemed to be the happiest, and in fact, even most of the new employees seemed pretty happy as well. There were, however, a couple of first-year employees who appeared to be a bit fidgety.</p>
+
+            <p>“And now, let’s get to the reason why we’re all here,” Mr. Jackson said. “The gifts! I hope you all find enjoyment from them.” Mr. Jackson stepped down from the platform as we all looked down at the boxes in our hands.</p>
+
+            <p>The tradition in the company is that the lower level employees start opening their gifts first, followed by the supervisors, and then the managers. Even Mr. Jackson gets a gift he must open.</p>
+
+            <p>The sound of wrapping paper being ripped from the boxes spread across the room as the employees anxiously tore into their gifts. Next to me, a young first-year sales associate opened his box. I saw a huge smile of relief spread across his face as he reached inside and pulled out a brand-new Rolex Explorer. “Wow, what a nice watch,” I said to him. He gave a big goofy smile as he slipped it onto his wrist.</p>
+
+            <p>Right across from me I watched another newbie pull out a key to a brand-new Mercedes. “Nice!” I shouted to her. She looked around excitedly. “It’ll be parked out front,” I told her. I knew this from experience, since I too was gifted a car several years ago.</p>
+
+            <p>Soon all the lower-level employees had opened their gifts, and the supervisors started in on theirs. I began to carefully unwrap mine. I’ll admit, at that moment, I was scared. I spend my entire year feeling great, but every year those few seconds I spend opening my gift seem like they go on for an hour. As I lifted the lid from the box, I was happy to find a stack of cash inside. Can’t go wrong with cash, I thought. I flipped through the stack to get a quick estimate of its value… it was probably about five-thousand dollars. It was right about then that I heard someone scream. I turned around to see Shirley, one of my fellow supervisors, holding an empty box in one hand, and in the other hand, she held the plain rock she’d just pulled out of it. “No!” she said. “This isn’t the box I wanted. I wanted to get that one over there!” She dropped her box and pointed to the lady who had been gifted the Mercedes. “But she grabbed it before I could get it!”</p>
+
+            <p>People around her shook their heads in disappointment.</p>
+
+            <p>“Shirley,” I said to her in a low tone, “try to be a little more dignified.”</p>
+
+            <p>Shirley dropped the rock. It clattered on the ground as those around her began to step back slowly. “No! I won’t be more dignified! This isn’t fair!”</p>
+
+            <p>I have to admit, I was a bit disappointed with Shirley’s reaction. She’d worked there long enough to know better than to pitch a fit. Most people who end up with the rock accept the situation graciously, and some even give a brief thank-you speech while they’re still able. Shirley? She was still complaining as she was jerked into the air by some unseen force. She levitated a few feet off the ground as her body began to smolder. Smoke spilled out from the neckline of her blouse. Her hair began singeing at its tips and then burned all the way down to her scalp. Her eyes burst open, spattering vitrea over her nearby coworkers. Dark smoke began spewing from her mouth as her body slowly turned into ash, with the effect starting at her feet and working its way up to her head. After a long minute, Shirley was no more than a pile of slag on the ground.</p>
+
+            <p>I’m going to miss Shirley. It’s true that she didn’t handle herself in a dignified manner when it mattered most, but she was a friendly coworker, and damn good at her job. However, success, and the finer things that accompany it, don’t come without some sort of sacrifice. And a sacrifice must be given, every year.</p>
+
+            <p>For those of you worried about Shirley, don’t be. Her husband and children will be well compensated for their loss. After all, the company is incredibly successful and has plenty of money to throw around. And with our powerful benefactor continuing to look out for us, we’re destined to have yet another banner year.</p>
+
+            <p>Anyway, if anyone’s looking for a job, we have an opening at the supervisory level. Prior supervisory experience is helpful but not absolutely essential. The job offers fantastic compensation, an unheard-of benefits package, year-long perks, and of course, an absolutely killer annual Christmas party which is not to be missed.</p>
+        </div>
+        <div data-role="footer" data-theme="a">
+            <h4>Pasta Bakes &copy; 2024</h4>
+        </div>
+    </div>
+
+    <div id="section10" data-role="page" data-theme="a">
+        <div data-role="header" data-theme="a" data-position="fixed">
+            <h3><a href="#page" data-icon="home" data-iconpos="Home" data-position="fixed">Home</a></h3>
+        </div>
+        <div data-role="main" class="ui-content" data-theme="a">
+            <h1>I’m a Marine Biologist: We Uncovered Something Deadly in the Pacific</h1>
+            <h3><a href="https://creepypasta.fandom.com/wiki/I%E2%80%99m_a_Marine_Biologist:_We_Uncovered_Something_Deadly_in_the_Pacific">Original Authors Link</a></h3>
+            <p>Amid the seemingly infinite expanse of the night-shrouded ocean, a solitary fishing boat ventured forth, its journey towards Bunker Island guided by the lone, silvery light of the moon. As the vessel gently rocked on the ebb and flow of the dark waters, its name, the 'Elizabeth Dane,' barely clung to the peeling paint at the stern, a testament to the countless expeditions it had weathered.</p>
+
+            <p>Guiding the boat through the obsidian abyss, Captain Vincent, the aged fisherman, stood as a living relic of a lifetime etched by the unforgiving ocean. His beard, as white as the cresting waves, framed a weathered face bearing the wisdom of countless years of maritime toil. The ruddy complexion told stories of sun and wind, while the corners of his mouth, stained with the enduring mark of tobacco, whispered tales of decades adrift on the briny expanse. Enshrouded in the familiar yellow slicker, Captain Vincent commanded the vessel with the steady hand of one who had witnessed the furies of the deep and prevailed.</p>
+
+            <p>At the boat's bow stood Joel Anderson, his appearance a stark contrast to the salted veteran, looked out onto the inky ocean with youthful anticipation. His face, clean-shaven, bore the hallmark of one embarking on a new voyage. As a marine biologist, he considered himself a detective of the oceans. His job was to explore, study, and protect the underwater world. His time was split between diving into the deep, spending time on boats, in labs, and underwater habitats to learn more about the many remaining mysteries of marine life. He examined the habits of fish, whales, and coral, as well as the ecosystems they live in. He considered his job more important now than ever, as he was helping the world understand how pollution, climate change, and human activity had affected the ocean bionetwork. Indeed, he saw his work to preserve and safeguard these crucial ecosystems as vital for future generations. But this had perhaps proven to be one mission too far. He was out of his depth, both figuratively and literally.</p>
+
+            <p>In his trembling hands, he held a cherished photograph, a relic of happier days. In this frozen moment, he and a woman shared laughter, their joyful expressions an echo of the candles they extinguished together on a birthday cake, a slice of time preserved in smiles and warm memories. The photograph seemed to burn with promise, a light contrasting with the encroaching darkness that lay ahead on this mysterious voyage.</p>
+
+            <p>Huddled beneath a tattered, salt-stained blanket that offered little protection from the frigid ocean breeze, Tom sat beside Joel. His face was marred by bloodstains, contusions, and there was a deep, haunted weariness etched into his features. The pale, flickering light of a feeble lantern cast eerie shadows upon his visage, making his eyes appear even more bewildered and terrified as he whispered in a trembling voice, "Please, don't make me go. I don't want to go back."</p>
+
+            <p>Joel responded to Tom's desperate plea with a steely determination tempered by compassion. "You're taking us back there, Tom. You have to," he urged, though the tension in his voice betrayed the gravity of their situation.</p>
+
+            <p>Tom's panicked objection was palpable, the sheer terror in his eyes seeming to radiate into the dank cabin. "No, no, no, no. I can't do this. I can't. Please," he pleaded, his voice quivering like a leaf in the chilling wind. As he spoke, his hands shook uncontrollably, trembling as he drew the thin, threadbare blanket over his face.</p>
+
+            <p>Kneeling before Tom, Joel moved with measured purpose, retrieving a Smith & Wesson Model 3 revolver from his side. He gently uncovered Tom's face, ensuring their eyes locked in an intense, unspoken understanding that left no room for doubt about the seriousness of their predicament. "Tom, you're taking us to the wreckage," Joel stated firmly, his voice laced with the solemnity of their situation, "or I'm left with no choice but to shoot you and consign your body to the unforgiving ocean."</p>
+
+            <p>Fighting back tears and casting a desperate glance toward Captain Vincent, who had shifted his gaze away, perhaps unable to bear the distressing scene unfolding before him, Tom found himself torn between the horrors of the past and the perilous journey that lay ahead.</p>
+
+            <p>Tom's words hung in the air, heavy with despair and resignation. "Maybe I'm better off with the bullet," he muttered, his voice a mere whisper beneath the vast, star-studded canopy of the night sky. The weight of their situation pressed upon them, and the sense of impending doom loomed ominously over the 'Elizabeth Dane.'</p>
+
+            <p>Joel, holstering the pistol back in his waistband, turned his gaze back to the water ahead. His steely resolve contrasted with the uncertainty that gnawed at his very soul. The fathomless depths of the ocean seemed to hold secrets darker than the night itself. Sensing the palpable tension gripping the boat, Captain Vincent cleared his throat, a subtle signal that he sought a private conversation with Joel. Tom took this as a cue to descend into the ship’s cabin.</p>
+
+            <p>The cabin below, a claustrophobic refuge within the bowels of the boat, offered the illusion of sanctuary, if only temporary, from the relentless disquiet that permeated their journey. Alone in the cabin, away from the watchful eyes of Joel and Captain Vincent, Tom gingerly uncovered his bandaged arm. The makeshift dressing revealed a festering bite mark, evidence of a malevolent encounter hidden from plain sight. The surrounding skin had taken on an ominous shade of black, a silent harbinger of the lurking horrors he feared they would soon all face.</p>
+
+            <p>With each passing moment, the fishing boat continued to cleave through the mysteries of the open ocean, its passengers burdened not only by the weight of their own secrets but also by the impending dread that clung to them like an unseen shroud. Beneath the vast expanse of the night sky, the 'Elizabeth Dane' forged ahead, its aging mariner, Captain Vincent, navigating with a furrowed brow and a sense of trepidation etched into the weathered lines of his countenance. He voiced his reservations, seeking solace in the counsel of Joel.</p>
+
+            <p>"Is this really the best idea?" Captain Vincent questioned, the timbre of his voice carrying the weight of uncertainty. "When that man washed ashore, he was babbling gibberish about ocean monsters and such. He wasn’t thinking straight."</p>
+
+            <p>Joel responded to the seasoned fisherman with ironclad resolve. "It's my sister. I must find her. If this man survived whatever ordeal they faced, there's a chance she did too."</p>
+
+            <p>Captain Vincent, still burdened by unease, muttered under his breath, "I just don't like our chances, that's all."</p>
+
+            <p>The foreboding atmosphere on the boat hung in the air like a damp, oppressive mist. Yet, despite the mounting uncertainty and forewarnings of danger, Joel remained unyielding in his commitment. "I'll stay out here as long as it takes," he declared, his voice cutting through the disquiet of the night, as the ‘Elizabeth Dane’ pressed forward into the heart of the unrelenting ocean. A shroud of thick fog unfurled on the distant horizon, a foreboding and ominous harbinger of uncertainty and danger. As it drew nearer, the vessel seemed to plunge further into an abyss of trepidation.</p>
+
+            <p>"Looks like we'll be hitting some trouble now," Captain Vincent declared, his voice laced with apprehension, mirroring the palpable tension that clung to the boat like an invisible specter. The fog's advance was relentless, promising an encounter with the unknown.</p>
+
+            <p>Joel, his resolve tested by the encroaching gloom, turned to confront the approaching curtain of mist, his exasperation finding voice in a muttered oath. "Shit." He could feel Tom, who had emerged now from the cabin below, cowering in fear throughout their harrowing journey, peering over the side of the boat, locking his eyes onto the advancing fog.</p>
+
+            <p>"We're here," Tom whispered, his voice trembling with dread, as though uttering the words would summon forth the very horrors he feared.</p>
+
+            <p>Joel, his sense of urgency now mounting, stepped closer to Tom, his voice trembling. "What do you mean? Where's 'here'?"</p>
+
+            <p>Tom, the weight of his ominous premonition bearing down on him, warned again in a trembling voice, "We’re not far from Bunker Island now. The fog. It emerges from the darkness. I'm telling you, for the last time, not to do this. Death awaits those who venture into the fog."</p>
+
+            <p>In response, Joel brandished his weapon, emphasizing his firm resolve. "Then I'll shoot death in the face." He signaled to Captain Vincent to continue their perilous journey, his fortitude evident as the boat pressed forward, disappearing into the dense, white fog.</p>
+
+            <p>Within the heart of this impenetrable shroud, visibility was limited at best, and an eerie silence enveloped their surroundings, broken only by the soft, rhythmic churning of the boat's engine. Joel, caught in the profound stillness of this fog-enshrouded world, cried out into the void.</p>
+
+            <p>"Caitlin! Caitlin, are you out there?"</p>
+
+            <p>His desperate pleas dissipated into the enveloping whiteness, leaving only a haunting echo in their wake. The disquieting silence sent an involuntary shiver down Joel's spine, as though the fog itself held some malevolent secret.</p>
+
+            <p>Tom, huddled beneath his protective blanket, murmured to himself, his words barely audible amidst the eerie calm that surrounded them. Joel seized the opportunity to uncover Tom, revealing the fearful contours of his face. Tom emitted a slight scream, instinctively shielding his injured arm, his gaze reflecting a primal fear.</p>
+
+            <p>"You've brought death upon us," Tom quivered, the weight of his ominous premonition manifesting in his trembling voice.</p>
+
+            <p>Desperate for answers, Joel pressed Tom for information, demanding, "Where is my sister? Where is the boat?"</p>
+
+            <p>Yet, all Tom could do was shake his head, offering no assistance, his eyes mirroring the fear that coursed through him. It was then that a sinister presence brushed against the fishing boat, causing it to sway and pitch, as though the very ocean itself had come to life in response to their incursion into the fog-shrouded abyss.</p>
+
+            <p>"What was that?" Joel's voice quivered with trepidation as he inquired, his eyes straining against the fog that shrouded their vision. It was a thick, impenetrable veil that left them in a world of eerie darkness. However, amidst this disorienting haze, a faint clearing beckoned in the distance, catching his attention. He leaned forward and pointed toward that mysterious rift in the otherwise unyielding mist, seeking guidance from Captain Vincent, who responded with a solemn nod as they steered the vessel towards that beckoning respite.</p>
+
+            <p>As the fishing boat ventured deeper into the clearing, an unsettling sight began to manifest itself before them. A ghostly silence descended, broken only by the boat's engine and the occasional creaking of the aging vessel. There, adrift in the water, lay a wretched and mangled boat, bearing the ghastly scars of destruction. The chilling signs of a gruesome struggle were etched onto its battered form, as bloodstains, like macabre war paint, smeared across its sides.</p>
+
+            <p>"Jesus Christ," Joel whispered in shock, his voice barely more than a murmur. The oppressive aura of death hung in the air, a suffocating presence that gripped their very hearts.</p>
+
+            <p>Captain Vincent, his face now etched with concern, maneuvered the fishing boat closer to the grim spectacle, allowing Joel to bridge the gap between the two vessels. With a mixture of anticipation and dread, Joel scrambled over the rail and onto the deck of the second boat, his determination unwavering.</p>
+
+            <p>The decrepit vessel beneath his feet struggled against the never-ending ocean, the threat of being swallowed by the abyss ever-present. It bore the disfiguring marks of countless maritime voyages, mysterious barnacles clinging to its surface like sinister parasites. Joel's eyes darted around the vessel, each scar and strange anomaly a puzzle waiting to be solved. Yet, a sense of denial washed over him as he inspected the name engraved on the stern.</p>
+
+            <p>"It's her boat. Where is she?" Joel muttered to himself, his voice tinged with disbelief and a growing sense of dread. Turning to Tom, his voice quivered as he called for assistance, "Tom, get over here. Help me look for her."</p>
+
+            <p>Tom, however, remained ensconced beneath his protective blanket, his fear evident in every quiver and shudder. He dared not leave the comforting cocoon of the tattered fabric, as if it were a shield against the horrors that lurked beyond.</p>
+
+            <p>With his trademark resolve, Joel retrieved a flashlight from his side, his trembling hands fumbling for the switch. With a click, the beam of light cut through the pervasive gloom, illuminating the sinister scene that lay before him. He aimed the flashlight toward the lifeless body suspended above, revealing the grisly tableau in all its horrifying detail. The victim's exposed flesh bore a disconcerting tapestry of strange hieroglyphic symbols, the inexplicable markings that hinted at the horrors this forsaken place had witnessed.</p>
+
+            <p>Yet, his frantic search for Caitlin aboard the vessel proved fruitless, the profound silence of the ocean answering him with only emptiness.</p>
+
+            <p>Suddenly, a peculiar sound, discordant and unsettling, echoed through the air. Joel's heart quickened as he pointed his flashlight toward the source, anxiously scanning the darkening surroundings. His voice pierced the impending storm, filled with concern and mounting dread, as he called out into the looming gloom.</p>
+
+            <p>"Caitlin?" The word hung in the air like a prayer, a desperate plea for an answer amidst the encroaching tempest and the mysteries of the ocean.</p>
+
+            <p>With growing apprehension gnawing at his gut, Joel cast his gaze out across the vast expanse of the water, straining his eyes to discern the distant figure adrift. It clung desperately to a broken piece of wood, isolated in the midst of uncertainty, like a lost soul in the abyss.</p>
+
+            <p>"She's over here! Guys, she's alive!" Joel's voice rang out, the resolute purpose in his tone a beacon of hope amidst the engulfing darkness. Without a moment's hesitation, he hurled himself into the water, the chill and the unknown beneath the surface failing to deter his resolve. Stroke after stroke, he swam resolutely towards the distant figure, each stroke carving a path towards his sibling.</p>
+
+            <p>In the cockpit of the vessel, Captain Vincent demonstrated his seasoned prowess, skillfully maneuvering the fishing boat closer to Caitlin's precarious location. Each maneuver was a heartbeat, each second an eternity, as the churning waves conspired to keep the drowning figure just out of reach. But the two men on the fishing boat, with their eyes fixed on Caitlin's distant form, were fueled by a sense of urgency that refused to yield.</p>
+
+            <p>Joel, his arms propelling him through the frigid water, reached her side at last. He grasped her, an anchor in the tumultuous ocean, and began the arduous swim back to the safety of the 'Elizabeth Dane.' Captain Vincent, ever vigilant, leaned over the side, his strong arms outstretched to aid in the rescue effort. Together, they hauled Caitlin aboard, her body limp and soaked, yet brimming with life.</p>
+
+            <p>Amid the confined space of the fishing boat, Captain Vincent's gaze fell upon Caitlin, his weathered features contorting with both relief and mounting horror. He motioned towards her, urgently tugging at Joel's shoulder to ensure his attention. Their labored breaths hung heavy in the air.</p>
+
+            <p>"Joel, look," Captain Vincent whispered, his voice quivering like the trembling hands of a condemned man on death row.</p>
+
+            <p>Joel's eyes followed the unsteady motion of Captain Vincent's finger, settling upon Caitlin as she lay before them. Her body exhibited a bewildering and unsettling metamorphosis, like a cruel twist of nature's design. On the sides of her neck, gills swayed in rhythm, their movements a haunting echo of life's primal origins, a pulse that seemed to long for the embrace of water.</p>
+
+            <p>"What is that?" Joel uttered in bewilderment.</p>
+
+            <p>Tom, who had finally found the strength to emerge from his sanctuary of despair below, pointed a trembling finger at Caitlin, his gaze reflecting an air of dread that had settled deep within his soul.</p>
+
+            <p>"She's infected. She's one of them," Tom declared, his voice a somber dirge hinting at the horrors the men had yet to fathom.</p>
+
+            <p>Tom's trembling finger, still extended towards Caitlin, suddenly drew his attention to an alarming revelation. His own hands were now undergoing a grotesque transformation. They glistened with a slimy sheen, their once-familiar digits slowly becoming webbed appendages. Panic surged through him like an electric shock, and with a sinking feeling, he hastily withdrew his hand, concealing the shocking metamorphosis from view.</p>
+
+            <p>But as if the nightmare had just begun, a sinister appendage emerged from the water. It snaked its way over the edge of the boat and coiled around Tom's neck with a malevolent grip. In an instant of unimaginable horror, the appendage, like some merciless executioner, yanked Tom overboard and into the unfathomable abyss. In the blink of an eye his cries for salvation were swallowed by the voracious ocean.</p>
+
+            <p>"What the hell was that?" Joel's voice, still quivering in terror, echoed over the raging waters, demanding an answer that seemed hopelessly out of reach. With a tremor in their hearts, he and Captain Vincent sprinted towards the starboard side of the boat, their eyes locking onto an unimaginable sight beneath the water's surface. There, in the depths of the abyss, a colossal yellow eye peered back at them, an unblinking guardian of the void below.</p>
+
+            <p>Stricken with fear, the men tumbled backward onto the deck, their bodies entwined with a sense of collective dread. The heavens, too, seemed to conspire against them, unleashing a torrential downpour that pounded the boat like the wrath of an angry god, drowning out their words and adding to the disorienting pandemonium.</p>
+
+            <p>"We need to get the hell out of here, now!" Joel's voice, filled with desperation, rang out once more, but the tempestuous winds and unforgiving rain carried his words away, lost amidst the chaos of the night.</p>
+
+            <p>With each passing moment, the nightmarish ordeal onboard the ‘Elizabeth Dane’ deepened. Captain Vincent's determined nod affirmed their need to escape the creeping, otherworldly terror that had beset them. He wasted no time, hastening towards the cabin, where the throbbing heart of their vessel lay: the engine. However, fate had other cruel plans, and their desperate escape attempt was met with a formidable setback. Black smoke unfurled from the engine room, an ominous sign of trouble and impending doom.</p>
+
+            <p>"That is not good," Joel muttered, his voice laden with unease as he recognized the gravity of their predicament. Swiftly, he reached for his gun, his knuckles white from the tension, and knelt beside Caitlin, who lay before him, a living enigma.</p>
+
+            <p>"Caitlin, can you hear me? Sis, are you alright?" he asked, the tremor of hope warring with the uncertainty in his voice. Her clouded eyes slowly blinked open, but the response that emanated from her frail form was anything but reassuring. Caitlin's fragile lips parted, and she let out a blood-curdling scream, the sound of anguish and transformation, sending shockwaves through Joel's already strained nerves.</p>
+
+            <p>The speed of her transformation was astounding. As he watched in shock, her body convulsed, like a puppet in the throes of some unseen malevolent force. Her fragile human form succumbed to the emergence of hideous features, the skin along her spine splitting open to reveal an unsettling sight. Red, translucent fins burst forth like grotesque blossoms, an indication of the monstrous metamorphosis that was consuming his beloved sister.</p>
+
+            <p>Amid the chaos and despair, Caitlin's horrifying form lunged at Joel, casting them both into the unforgiving waters. Below the surface, the constant grip of bodily conversion continued its cruel dance. Her once-human fingers elongated and fused together, webbing stretching between them, like some unnatural simile of aquatic life.</p>
+
+            <p>Gasping for air, Joel fought his way back to the water's surface. The tempest raged on around him, but he somehow found the strength to persevere. Struggling, he swam back to the fishing boat, hoisting himself aboard in a struggle against the currents. He targeted the stern for his ascent, the one area he could reach without requiring assistance.</p>
+
+            <p>His eyes scanned the boat's interior, a frantic search for his only means of defense. His heart sank as he realized that the gun he had so desperately clung to was now lost to the unforgiving ocean. In the cabin, a beacon of hope emerged as Captain Vincent's efforts bore fruit, the engine roaring back to life. The boat, however, battered by the unceasing rain, seemed to shudder as if in protest. Yet, amidst the tumultuous deluge, the respite they had prayed for was but a fleeting illusion.</p>
+
+            <p>In that moment, another sinister tentacle emerged from the depths, its serpentine form lashing out with malevolence. It struck at Joel and Captain Vincent, damaging the boat’s mast with ruthless force, leaving destruction and chaos in its wake. The monstrous appendage then vanished once more beneath the turbulent waves, returning to the abyss from which it had come.</p>
+
+            <p>As the boat teetered on the brink of destruction, two webbed hands, formerly the very image of humanity and kinship, breached the surface. They emerged as grotesque perversions of their former selves, severed from the bonds of familiarity by an eerie and ominous transformation. Caitlin's once-cherished hands now harbored rows of jagged, razor-sharp appendages, her fingers clawing at the wooden deck of the boat. With a surreal grace, she inched closer, her nails scraping across the wooden planks, her lower extremities now fused into a mermaid-like tail.</p>
+
+            <p>"Joel...help...me..." this haunting whisper escaped her now monstrous maw. The voice was an agonized plea, hanging in the air like a spectral echo. As she crept closer, the darkness within her eyes seemed to devour what little remained of her humanity, leaving only a haunting shell of the sister that Joel had once known.</p>
+
+            <p>Captain Vincent, his spirit shaken yet resolute, voiced a stark warning, his words laden with the gravity of their situation. "We need to leave now. That's not your sister anymore." With steady purpose, he marched back to the helm, leaving Tom, who was succumbing to the same horrifying transformation, stranded on the treacherous deck.</p>
+
+            <p>The confrontation had escalated into a nightmarish representation of grotesque transformation. Tom's once-human visage had given way to a dreadful amalgamation of scales, yellowed eyes, and gills that clung to the sides of his neck like hideous adornments. The initial wound, once seemingly a mere point of injury, now pulsated ominously, a macabre indication of the destructive metamorphosis that had claimed him.</p>
+
+            <p>With ungodly determination, Tom extended his mutated arm towards Captain Vincent, his intention chillingly clear. A harrowing struggle unfolded between the two former companions, the dance of survival in this nightmarish abyss taking on an even darker hue. Then, with a dreadful and unholy act, Tom spat forth a vile black tar-like substance onto Captain Vincent's unsuspecting face. The old mariner stumbled back, disoriented and stricken, before finally toppling over the side of the boat. Tom, now a nightmarish shadow of his former self, wasted no time. He leaped into the water, pursuing Captain Vincent into the inky depths below.</p>
+
+            <p>In this moment of absolute desperation, Joel's hands fumbled for salvation. He grasped a weathered tin case, his heart pounding in tandem with his racing thoughts. The case proved to be a stubborn adversary, yet with firm resolve, he succeeded in wresting it open. Inside, two red flares remained, an admittedly limited lifeline in the face of such profound horror.</p>
+
+            <p>Grimly ascending the partly damaged mast, Joel braced himself against the incoming deluge. Rain lashed at his face with merciless intensity, making it a battle to keep his eyes open and fix his gaze on the task at hand. His heart raced, terror clung to his very soul, yet he understood the gravity of the situation. He took aim with the flare gun, determined to unleash this final beacon of hope.</p>
+
+            <p>In a defiant burst, a single red flare erupted from the gun's muzzle, igniting the bleak, moonlit night with its vivid pinkish-red illumination. The ocean itself seemed to shudder in response, revealing its ominous secrets. Joel's heart trembled as he bore witness to the surreal spectacle unveiled by the stark brilliance of the flare. Hundreds of unworldly eyes, grotesque and ghastly, stared back at him from the churning surface of the water, like the eyes of malevolent spirits awakened by his act of defiance.</p>
+
+            <p>"Oh my God," he gasped, his voice trembling in the face of such horror. One by one, these creatures, each more nightmarish than the last, began their relentless ascent, hauling themselves onto the fishing boat.</p>
+
+            <p>Joel's desperate gaze descended to the transformed Caitlin, who reached out to him with an almost mournful expression in her eyes. The poignant bond of brotherly love mixed with a profound sense of dread, as he whispered, "I'm sorry, Caitlin." Tears, indistinguishable from the relentless rain, trickled down his rain-slicked face.</p>
+
+            <p>With a sense of tragic inevitability, he reloaded the flare gun, knowing that this was his last chance. Every fiber of his being screamed against what he was about to do, yet the dire circumstances left him with no choice. He pointed the gun at Caitlin, his hand trembling with the weight of his choice, and in a voice that bore the weight of his sacrifice, he said, "God, please forgive me." With a resolute pull of the trigger, the flare erupted into a searing blaze, its fiery tendrils reaching out to claim Caitlin's form.</p>
+
+            <p>In an instant, the sticky substance that coated her body reacted to the flare, and she was engulfed in a flaming inferno. Her agonized screams pierced the night, the fiery maelstrom she became flinging burning fragments in all directions. The other monstrous creatures recoiled, their misshapen features twisted in fear and dread as they witnessed the fate that had befallen their once-kindred.</p>
+
+            <p>The fishing boat, partially consumed by the blaze, bore the fiery scars of the struggle against these unholy abominations. Yet, remarkably, the fearsome rain battled against the encroaching flames, its ceaseless deluge suppressing the inferno.</p>
+
+            <p>As Joel grasped on to the mast amid the chaos, his world teetering on the precipice of madness and despair, his gaze was drawn to a single, distant light. It flickered in the night, a slender ray of hope in an ocean of darkness.</p>
+
+            <p>The glimmer of salvation beckoned in the distance, a lifeline reaching out to him from the abyss. With newfound resolve, Joel clung to the last vestiges of his will, shouting into the night, "Hey! Over here! Help!"</p>
+
+            <p>The hideous creatures around him, momentarily disoriented by the fiery conflagration, began to reclaim their place. The ocean itself seemed to recoil from the manifestation of this stranger's light. Yet, the eerie tranquility was fleeting, and their dark embrace threatened to close in once more.</p>
+
+            <p>The boat's once-smoldering deck now hissed and cooled as the rain waged a battle against the burgeoning flames, preventing further catastrophe for the moment. Amid the lingering scent of charred wood and the palpable tension that clung to the air, Joel's eyes again caught a glimmer of hope; it was nearer now. There, a solitary light broke through the darkness, beckoning like a guiding star. Any thoughts that he had imagined this were now banished. A boat, its form gradually emerging from the shroud of night, was making its way toward Joel's beleaguered vessel.</p>
+
+            <p>"Hey! Over here! Help!" he bellowed, the sound of his own voice carried away by the restless wind and absorbed by the expanse of the ocean. Yet, this cry was not in vain. The approaching boat, like a guardian angel descending from the heavens, continued its steadfast approach, its engine a persistent beacon of hope. Relief cascaded over Joel like a cleansing wave as he realized that help was on the way. His shouts, though born of despair, had reached sympathetic ears.</p>
+
+            <p>The abominable tentacles, relentless in their pursuit of destruction, slithered once more from the inky depths, wrapping around the beleaguered fishing boat with a sinister embrace. The vessel, already badly damaged by the harrowing events that had unfolded, protested against this fresh assault, its wooden bones creaking and groaning in protest under the otherworldly pressure of the otherworldly appendages.</p>
+
+            <p>Tighter they gripped.</p>
+
+            <p>Tighter still.</p>
+
+            <p>Joel clung to the mast for dear life as the boat succumbed to the might of the tentacles. With a deafening crack, the boat splintered in two, like a fragile twig in the grasp of an otherworldly force. Water rushed in, swallowing the wreckage and all who clung to it. All that remained for Joel to do was hope that the boat would reach him in time.</p>
+        </div>
+        <div></div>
+        <div data-role="footer" data-theme="a">
+            <h4>Pasta Bakes &copy; 2024</h4>
+        </div>
+    </div>
+</div>
+    <div data-role="footer" data-theme="a" >
+        <h4>Pasta Bakes &copy; 2024</h4>
+    </div>
+</div>
+</body>
+<script>
+    $(document).ready(function(){
+        // Close the panel when the page loads (optional, panel defaults to closed)
+        $("#myPanel").panel("close");
+    
+        // Open the panel when any list item is clicked
+        $("#myPanel ul li a").click(function(){
+            $("#myPanel").panel("open");
+        });
+    });
+</script>
+
+</html>
